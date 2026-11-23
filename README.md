@@ -6,4 +6,4 @@ How to edit (no coding needed):
 - Design is in `src/styles.css`, motion in `src/site.js`, page templates in `build.py`.
 
 Ask ChatGPT Codex, Claude or webbie in plain words, e.g. "change the homepage headline to ...".
-Netlify rebuilds automatically on every change to `main` (build: `python3 build.py`, publish: `dist`).
+Every change to `main` updates the free preview automatically (GitHub Actions > "Preview"). To put it on the live site, run GitHub Actions > "Publish to live site" (uses Netlify credits).

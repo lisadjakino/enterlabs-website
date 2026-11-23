@@ -1,0 +1,16 @@
+name: Preview (free draft)
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt && python3 build.py
+      - run: npx -y netlify-cli deploy --dir dist --site 629208f9-e339-4a9a-88dd-91c7fbcaa2f0 --alias content
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
