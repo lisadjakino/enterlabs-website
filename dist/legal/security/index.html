@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Security Overview | enterlabs</title>
+<meta name="description" content="Certification, technical controls and security documentation.">
+<link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img src="/assets/brand/enterlabs-logo.svg" alt="enterlabs" width="150" height="35"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menu</button>
+    <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+      <a href="/platform/">Platform</a>
+      <div class="nav-group"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="menu-industries">Industries<span class="nav-chevron" aria-hidden="true"></span></button><div class="nav-menu" id="menu-industries" hidden><ul><li><a href="/industries/insurance/"><strong>Insurance</strong><span>Claims, policies and underwriting files.</span></a></li><li><a href="/industries/healthcare-providers/"><strong>Healthcare providers</strong><span>Medical records, bills and claim submissions.</span></a></li><li><a href="/industries/banking-and-lending/"><strong>Banking and lending</strong><span>Loan applications, bank statements and KYC documents.</span></a></li><li><a href="/industries/logistics-and-trade/"><strong>Logistics and trade</strong><span>Invoices, packing lists, bills of lading and customs documents.</span></a></li><li><a href="/industries/manufacturing/"><strong>Manufacturing</strong><span>Purchase orders, delivery notes, supplier invoices and quality certificates.</span></a></li><li class="nav-all"><a href="/industries/">All industries<span aria-hidden="true"> &rarr;</span></a></li></ul></div></div>
+      <a href="/customers/">Customers</a>
+      <div class="nav-group align-right" data-current="true"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="menu-about-us">About us<span class="nav-chevron" aria-hidden="true"></span></button><div class="nav-menu" id="menu-about-us" hidden><ul><li><a href="/company/"><strong>Company</strong><span>Who we are, where we are based and who backs us.</span></a></li><li><a href="/trust/"><strong>Trust</strong><span>Certification, privacy practices, deployment and security diligence.</span></a></li><li><a href="/legal/"><strong>Legal</strong><span>Terms, privacy, security and company information.</span></a></li></ul></div></div>
+      <a class="btn btn-primary" href="/book-a-demo/">Book a demo</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="legal-doc">
+  <div class="wrap legal-doc-grid">
+    <aside class="legal-sidebar">
+      <a class="legal-back" href="/legal/">Back to Legal</a>
+      <p class="legal-toc-label">On this page</p>
+      <nav class="legal-toc" aria-label="On this page"><a href="#security-at-enterlabs">Security at enterlabs</a><a href="#iso-iec-27001-2022">ISO/IEC 27001:2022</a><a href="#access-and-separation">Access and separation</a><a href="#data-handling">Data handling</a><a href="#finding-and-addressing-weaknesses">Finding and addressing weaknesses</a><a href="#incident-response">Incident response</a><a href="#continuity">Continuity</a><a href="#people">People</a><a href="#security-documentation-and-reporting">Security documentation and reporting</a></nav>
+    </aside>
+    <article class="legal-prose">
+      <p class="kicker">Legal</p>
+      <h1>Security Overview</h1>
+      <p class="legal-date">Last updated: 6 September 2026</p>
+      <h2 id="security-at-enterlabs">Security at enterlabs</h2><p>Documents and personal data require careful handling. We build security into platform development and operations, with controls that help Clients manage access, review activity and choose an appropriate deployment.</p><h2 id="iso-iec-27001-2022">ISO/IEC 27001:2022</h2><p>Confluidity Pte. Ltd.&#x27;s information security management system is certified by INTERCERT to ISO/IEC 27001:2022. The certificate annexure includes PT Codemasters Nusantara Innovation&#x27;s Jakarta site.</p>
+<p>The certified scope covers the development, deployment and operation of cloud-based medical insurance claims-processing SaaS for insurers and third-party administrators, including Software Engineering, AI/ML Operations, Security Operations, Business Development and Sales, Data Operations and Corporate Operations.</p>
+<p>Certificate number: IC-IS-2608218</p>
+<p>Initial certification and issue date: 19 August 2026</p>
+<p>Current certificate validity: 19 August 2026 to 18 August 2027</p>
+<p>Recertification date: 18 August 2029</p><h2 id="access-and-separation">Access and separation</h2><p>Role-based access limits what users can see and do. Tenant separation and distinct development, staging and production environments support the protection of Client data. Authentication, data-access and administrative events are logged to support investigation and review.</p><h2 id="data-handling">Data handling</h2><p>Encryption measures and redaction controls support the protection and minimisation of data. The Platform implements application-level AES-GCM encryption. Redacted or pseudonymised data remains protected as personal data where it can be linked to an individual.</p>
+<p>Managed infrastructure is hosted in AWS Jakarta, with disaster-recovery resources in Singapore. Hybrid deployment options place designated document-processing components within the Client&#x27;s environment. The applicable agreement records the deployment and processing arrangements.</p><h2 id="finding-and-addressing-weaknesses">Finding and addressing weaknesses</h2><p>Snyk static application security testing and software composition analysis are integrated into the deployment pipeline. Required scans must pass before deployment; failed scans block deployment.</p>
+<p>Independent security testing results are shared with Clients under NDA as they become available.</p><h2 id="incident-response">Incident response</h2><p>We maintain a documented incident-response process. Affected Clients are notified without undue delay in accordance with applicable law and their agreements. Investigation, containment and follow-up are coordinated with the relevant Client.</p><h2 id="continuity">Continuity</h2><p>Daily database snapshots and documented business-continuity and disaster-recovery arrangements support recovery planning. Deployment-specific information is available during security review.</p><h2 id="people">People</h2><p>Personnel are subject to confidentiality obligations, security-awareness training and access controls appropriate to their responsibilities. Access is reviewed periodically and removed when no longer authorised.</p><h2 id="security-documentation-and-reporting">Security documentation and reporting</h2><p>Visit our <a href="/trust/">Trust page</a> to request access to supporting security documentation. Documents require a signed NDA and are watermarked.</p>
+<p>Report a suspected vulnerability or security concern to <a href="mailto:sales@enterlabs.ai">sales@enterlabs.ai</a>.</p>
+      <p class="legal-end"><a href="/legal/">All legal documents</a><a href="mailto:sales@enterlabs.ai">Contact sales@enterlabs.ai</a></p>
+    </article>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap foot">
+    <div class="foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="brand" href="/"><img src="/assets/brand/enterlabs-logo.svg" alt="enterlabs" width="140" height="32"></a>
+        <p>Intelligent document processing, with people in control.</p>
+      </div>
+      <nav class="foot-col" aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="/platform/">Platform</a><a href="/industries/">Industries</a><a href="/customers/">Customers</a><a href="/company/">Company</a><a href="/trust/">Trust</a>
+      </nav>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:sales@enterlabs.ai">sales@enterlabs.ai</a>
+        <a href="/book-a-demo/">Book a demo</a>
+      </div>
+      <div class="foot-col foot-office"><h4>Singapore</h4><span>68 Circular Road #02-01</span><span>Singapore 049422</span></div><div class="foot-col foot-office"><h4>Jakarta</h4><span>Jl. Yusuf Adiwinata No. 32/34, Menteng</span><span>Jakarta Pusat 10350</span></div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 enterlabs. All rights reserved.</span>
+      <nav class="foot-legal" aria-label="Legal"><a href="/legal/privacy/">Privacy</a><a href="/legal/website-terms/">Website terms</a><a href="/legal/cookies/">Cookies</a><a href="/legal/">Legal</a></nav>
+    </div>
+  </div>
+</footer>
+<script src="/js/site.js"></script>
+</body>
+</html>

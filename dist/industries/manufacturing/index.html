@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Manufacturing | enterlabs</title>
+<meta name="description" content="enterlabs matches purchase orders, delivery notes, supplier invoices and quality certificates and flags differences for review.">
+<link rel="icon" href="/assets/brand/favicon-32.png" type="image/png">
+<link rel="apple-touch-icon" href="/assets/brand/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/"><img src="/assets/brand/enterlabs-logo.svg" alt="enterlabs" width="150" height="35"></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel">Menu</button>
+    <nav class="nav-panel" id="nav-panel" aria-label="Primary">
+      <a href="/platform/">Platform</a>
+      <div class="nav-group" data-current="true"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="menu-industries">Industries<span class="nav-chevron" aria-hidden="true"></span></button><div class="nav-menu" id="menu-industries" hidden><ul><li><a href="/industries/insurance/"><strong>Insurance</strong><span>Claims, policies and underwriting files.</span></a></li><li><a href="/industries/healthcare-providers/"><strong>Healthcare providers</strong><span>Medical records, bills and claim submissions.</span></a></li><li><a href="/industries/banking-and-lending/"><strong>Banking and lending</strong><span>Loan applications, bank statements and KYC documents.</span></a></li><li><a href="/industries/logistics-and-trade/"><strong>Logistics and trade</strong><span>Invoices, packing lists, bills of lading and customs documents.</span></a></li><li><a href="/industries/manufacturing/" aria-current="page"><strong>Manufacturing</strong><span>Purchase orders, delivery notes, supplier invoices and quality certificates.</span></a></li><li class="nav-all"><a href="/industries/">All industries<span aria-hidden="true"> &rarr;</span></a></li></ul></div></div>
+      <a href="/customers/">Customers</a>
+      <div class="nav-group align-right"><button type="button" class="nav-trigger" aria-expanded="false" aria-controls="menu-about-us">About us<span class="nav-chevron" aria-hidden="true"></span></button><div class="nav-menu" id="menu-about-us" hidden><ul><li><a href="/company/"><strong>Company</strong><span>Who we are, where we are based and who backs us.</span></a></li><li><a href="/trust/"><strong>Trust</strong><span>Certification, privacy practices, deployment and security diligence.</span></a></li><li><a href="/legal/"><strong>Legal</strong><span>Terms, privacy, security and company information.</span></a></li></ul></div></div>
+      <a class="btn btn-primary" href="/book-a-demo/">Book a demo</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero">
+  
+  <div class="wrap">
+    <p class="kicker">Industries</p>
+    <h1>Supplier invoices that match the order</h1>
+    <p class="lead">enterlabs works with purchase orders, delivery notes, supplier invoices and quality certificates, so an invoice is paid when the documents agree.</p>
+    <div class="actions "><a class="btn btn-primary" href="/book-a-demo/">Book a demo</a><a class="btn btn-ghost" href="/industries/">All industries</a></div>
+  </div>
+</section>
+<section class="wrap">
+  <div class="section-head reveal">
+    <h2>The problem</h2>
+    <p class="muted">A supplier invoice should be paid only when it agrees with the purchase order, the delivery note and the quality certificate.</p>
+    <p class="note">Documents: Purchase orders, delivery notes, supplier invoices and quality certificates.</p>
+  </div>
+</section>
+<section class="wrap" style="padding-top:0">
+  <div class="section-head reveal"><h2>Example checks</h2></div>
+  <div class="card-grid reveal"><article><h3>Check 1</h3><p>Match invoice totals to purchase orders.</p></article><article><h3>Check 2</h3><p>Check delivery notes against the order.</p></article><article><h3>Check 3</h3><p>Compare supplier invoices with quality certificates for review.</p></article></div>
+</section>
+<section class="wrap" style="padding-top:0">
+  <div class="section-head reveal"><h2>How it works</h2></div>
+  <div class="card-grid reveal"><article><div class="num">01</div><h3>Prepare the data</h3><p>enterlabs reads purchase orders, delivery notes, supplier invoices and quality certificates and turns them into structured data.</p></article><article><div class="num">02</div><h3>Check against agreed rules</h3><p>It matches invoice totals and quantities to the purchase order and the delivery note, and compares the invoice with the quality certificate.</p></article><article><div class="num">03</div><h3>Review and record</h3><p>A person reviews each flagged item and makes the final call. Every review is recorded.</p></article></div>
+</section>
+<section class="wrap" id="example" style="padding-top:0">
+  <div class="section-head reveal">
+    <h2>An example screen</h2>
+    <p class="muted">A supplier invoice matched to a purchase order and a delivery note. One quantity difference is flagged for review.</p>
+    
+  </div>
+  <div class="reveal"><figure class="mock" aria-label="INV-20817">
+  <div class="mock-stage">
+    <div class="mock-panel mock-main">
+      <p class="mock-crumb">Purchase to pay <i>/</i> <b>Invoice match</b></p>
+      <div class="mock-title"><h3>INV-20817</h3><span class="chip chip-status">Under review</span></div>
+      <p class="mock-meta"><span>Northwind Components</span><span>PO-30417</span><span>Delivery DN-5521</span></p>
+      <div class="mock-table-wrap"><table class="mock-table">
+        <thead><tr><th scope="col">Item</th><th scope="col">Supplier invoice</th><th scope="col">Purchase order</th><th scope="col">Delivery note</th><th scope="col">Result</th></tr></thead>
+        <tbody><tr><th scope="row">Steel bracket A12 (qty)</th><td>500</td><td>500</td><td>500</td><td><span class="chip chip-match">Match</span></td></tr><tr class=row-flag><th scope="row">Hex bolt M8 (qty)</th><td>1,200</td><td>1,200</td><td class="cell-flag">1,000</td><td><span class="chip chip-review chip-mismatch">Mismatch</span></td></tr><tr><th scope="row">Gasket set G4 (qty)</th><td>250</td><td>250</td><td>250</td><td><span class="chip chip-match">Match</span></td></tr></tbody>
+      </table></div>
+    </div>
+    <div class="mock-side">
+      <div class="mock-panel mock-finding">
+        <div class="mock-title"><h3>Finding</h3><span class="chip chip-review">Needs review</span></div>
+        <p class="mock-item"><b>Hex bolt M8</b><small>Quantity mismatch</small></p>
+        <div class="mock-reason"><p class="mock-reason-h">Why it was flagged</p><p>The invoice bills 1,200 units and the purchase order allows 1,200, but the delivery note shows 1,000 received. 200 units are billed and not delivered. Review before payment.</p></div>
+        <div class="mock-btns"><span class="mock-btn">Cancel</span><span class="mock-btn mock-btn-dark">Send to reviewer</span></div>
+      </div>
+      <div class="mock-panel mock-checks">
+        <div class="mock-title"><h3>Checks</h3></div>
+        <ul><li><span class="chk-ico ok" aria-hidden="true"></span><div><b>Invoice total against purchase order</b><small>USD 18,450.00 on both</small></div><span class="chip chip-match">Match</span></li><li><span class="chk-ico rv" aria-hidden="true"></span><div><b>Delivery note against the order</b><small>Hex bolt M8: 1,000 of 1,200 received</small></div><span class="chip chip-review">Review</span></li><li><span class="chk-ico ok" aria-hidden="true"></span><div><b>Invoice against quality certificate</b><small>Batch QC-9042 on both</small></div><span class="chip chip-match">Match</span></li></ul>
+      </div>
+    </div>
+  </div>
+</figure></div>
+</section>
+<section class="closing" data-motion="float">
+  <div class="docs" aria-hidden="true">
+  <div class="doc doc-id"><i class="ph"></i><b></b><b></b><b></b><b></b></div>
+  <div class="doc doc-table"><b></b><b></b><b></b><b></b><b></b><b></b></div>
+  <div class="doc doc-receipt"><b></b><b></b><b></b><b></b><b></b></div>
+  <div class="doc doc-form"><b></b><b></b><b></b><b></b></div>
+</div>
+  <div class="wrap reveal closing-inner">
+    <img class="closing-logo" src="/assets/brand/enterlabs-logo.svg" alt="enterlabs" width="168" height="39">
+    <h2>Tell us about the purchasing documents your team handles.</h2>
+    <span class="rule" aria-hidden="true"></span>
+    <p class="lead">Start with one supplier invoice and see the checks on your own documents.</p>
+    <div class="actions "><a class="btn btn-primary" href="/book-a-demo/">Book a demo</a></div>
+  </div>
+</section>
+
+</main>
+<footer>
+  <div class="wrap foot">
+    <div class="foot-grid">
+      <div class="foot-col foot-brand">
+        <a class="brand" href="/"><img src="/assets/brand/enterlabs-logo.svg" alt="enterlabs" width="140" height="32"></a>
+        <p>Intelligent document processing, with people in control.</p>
+      </div>
+      <nav class="foot-col" aria-label="Footer">
+        <h4>Explore</h4>
+        <a href="/platform/">Platform</a><a href="/industries/">Industries</a><a href="/customers/">Customers</a><a href="/company/">Company</a><a href="/trust/">Trust</a>
+      </nav>
+      <div class="foot-col">
+        <h4>Contact</h4>
+        <a href="mailto:sales@enterlabs.ai">sales@enterlabs.ai</a>
+        <a href="/book-a-demo/">Book a demo</a>
+      </div>
+      <div class="foot-col foot-office"><h4>Singapore</h4><span>68 Circular Road #02-01</span><span>Singapore 049422</span></div><div class="foot-col foot-office"><h4>Jakarta</h4><span>Jl. Yusuf Adiwinata No. 32/34, Menteng</span><span>Jakarta Pusat 10350</span></div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 enterlabs. All rights reserved.</span>
+      <nav class="foot-legal" aria-label="Legal"><a href="/legal/privacy/">Privacy</a><a href="/legal/website-terms/">Website terms</a><a href="/legal/cookies/">Cookies</a><a href="/legal/">Legal</a></nav>
+    </div>
+  </div>
+</footer>
+<script src="/js/site.js"></script>
+</body>
+</html>
