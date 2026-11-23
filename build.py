@@ -810,14 +810,6 @@ def build_home() -> str:
     </div>
   </div>
 </div>
-<section class="wrap" id="proven">
-  <div class="reveal" style="max-width:740px">
-    <p class="kicker">{esc(p["proven_kicker"])}</p>
-    <h2>{esc(p["proven_h2"])}</h2>
-    <p class="muted">{esc(p["proven_lead"])}</p>
-    <p class="note"><a href="{esc(p["proven_link"]["href"])}">{esc(p["proven_link"]["label"])}</a></p>
-  </div>
-</section>
 <section class="wrap" id="industries">
   <div class="reveal" style="max-width:740px">
     <p class="kicker">{esc(p["industries_kicker"])}</p>
@@ -1535,11 +1527,6 @@ def write_content_md() -> None:
         + ". Flagged: " + ps["finding"]["item"] + " (" + ps["finding"]["kind"] + "). "
         + ps["finding"]["text"],
     )
-    p("Proven kicker", home["proven_kicker"])
-    p("Proven headline", home["proven_h2"])
-    p("Proven lead", home["proven_lead"])
-    lines.append("Link: " + home["proven_link"]["label"])
-    lines.append("")
     p("Industries kicker", home["industries_kicker"])
     p("Industries headline", home["industries_h2"])
     p("Industries lead", home["industries_lead"])

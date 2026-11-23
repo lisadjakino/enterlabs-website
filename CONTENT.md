@@ -93,17 +93,6 @@ Your team makes the call. Status updates, the count moves, and the next step is 
 Homepage and Platform product screen
 INV-18462, Meridian Supplies Ltd. Supplier invoice, PO-44109, DN-7721. Flagged: Hex bolt M8 (Quantity mismatch). The invoice bills 1,200 units and the purchase order allows 1,200, but the delivery note shows 1,000 received. 200 units are billed and not delivered. Review before payment.
 
-Proven kicker
-In production
-
-Proven headline
-Already in production.
-
-Proven lead
-The platform is live today. Teams use it to structure documents, check every detail and keep a record of every review.
-
-Link: See the live insurance case
-
 Industries kicker
 Who it is for
 
