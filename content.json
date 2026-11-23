@@ -1,0 +1,1719 @@
+{
+  "site": {
+    "name": "enterlabs",
+    "title_suffix": "enterlabs",
+    "footer_line": "enterlabs. Intelligent document processing, with people in control.",
+    "entity_line": "Confluidity Pte. Ltd., Singapore. PT Codemasters Nusantara Innovation, Jakarta.",
+    "device_url": "enterlabs",
+    "logo_strip_label": "Representative clients",
+    "meta_robots": "noindex, nofollow",
+    "nav": [
+      {
+        "label": "Platform",
+        "href": "/platform/"
+      },
+      {
+        "label": "Industries",
+        "href": "/industries/",
+        "children": [
+          {
+            "label": "Insurance",
+            "href": "/industries/insurance/",
+            "desc": "Claims, policies and underwriting files."
+          },
+          {
+            "label": "Healthcare providers",
+            "href": "/industries/healthcare-providers/",
+            "desc": "Medical records, bills and claim submissions."
+          },
+          {
+            "label": "Banking and lending",
+            "href": "/industries/banking-and-lending/",
+            "desc": "Loan applications, bank statements and KYC documents."
+          },
+          {
+            "label": "Logistics and trade",
+            "href": "/industries/logistics-and-trade/",
+            "desc": "Invoices, packing lists, bills of lading and customs documents."
+          },
+          {
+            "label": "Manufacturing",
+            "href": "/industries/manufacturing/",
+            "desc": "Purchase orders, delivery notes, supplier invoices and quality certificates."
+          }
+        ],
+        "all": {
+          "label": "All industries",
+          "href": "/industries/"
+        }
+      },
+      {
+        "label": "Customers",
+        "href": "/customers/"
+      },
+      {
+        "label": "About us",
+        "href": "/company/",
+        "match": [
+          "/company/",
+          "/legal/",
+          "/trust/"
+        ],
+        "children": [
+          {
+            "label": "Company",
+            "href": "/company/",
+            "desc": "Who we are, where we are based and who backs us."
+          },
+          {
+            "label": "Trust",
+            "href": "/trust/",
+            "desc": "Certification, privacy practices, deployment and security diligence."
+          },
+          {
+            "label": "Legal",
+            "href": "/legal/",
+            "desc": "Terms, privacy, security and company information."
+          }
+        ]
+      }
+    ],
+    "cta": {
+      "label": "Book a demo",
+      "href": "/book-a-demo/"
+    },
+    "clients": [
+      {
+        "alt": "Mega Insurance",
+        "src": "/assets/clients/mono/mega-insurance.png",
+        "w": 357,
+        "h": 140
+      },
+      {
+        "alt": "BirdMobil",
+        "src": "/assets/clients/mono/birdmobil.png",
+        "w": 568,
+        "h": 140
+      },
+      {
+        "alt": "BNI Life",
+        "src": "/assets/clients/mono/bni-life.png",
+        "w": 280,
+        "h": 140
+      },
+      {
+        "alt": "Takaful Keluarga",
+        "src": "/assets/clients/mono/takaful-keluarga.png",
+        "w": 381,
+        "h": 100
+      },
+      {
+        "alt": "Zurich",
+        "src": "/assets/clients/mono/zurich.png",
+        "w": 224,
+        "h": 140
+      },
+      {
+        "alt": "PT Medilink",
+        "src": "/assets/clients/mono/pt-medilink.png",
+        "w": 448,
+        "h": 88
+      },
+      {
+        "alt": "BRI",
+        "wordmark": "BRI"
+      },
+      {
+        "alt": "Rumah Siap Kerja",
+        "src": "/assets/clients/mono/rumah-siap-kerja.png",
+        "w": 475,
+        "h": 140
+      },
+      {
+        "alt": "Astra",
+        "src": "/assets/clients/mono/astra.png",
+        "w": 505,
+        "h": 140
+      },
+      {
+        "alt": "MSL Motors",
+        "wordmark": "MSL Motors"
+      },
+      {
+        "alt": "Caready",
+        "src": "/assets/clients/mono/caready.png",
+        "w": 485,
+        "h": 116
+      },
+      {
+        "alt": "Auto2000",
+        "wordmark": "Auto2000"
+      }
+    ],
+    "quotes": [
+      {
+        "text": "enterlabs demonstrated a strong understanding of our business needs. Their professionalism and AI expertise ensured the satisfactory outcome. They delivered significant impact on our business process.",
+        "name": "Hardianto Wirawan",
+        "role": "Vice President, Mega Insurance",
+        "img": "/assets/people/hardianto-wirawan.webp",
+        "id": "mega-insurance",
+        "cover": "/assets/stories/mega-insurance.webp",
+        "logo": "/assets/clients/mega-insurance-white.webp",
+        "logo_alt": "Mega Insurance",
+        "tag": "Health insurance · General insurer",
+        "client": "Mega Insurance",
+        "client_logos": [
+          "/assets/clients/mega-insurance.webp"
+        ],
+        "headline": "38% more claims finalised per day, with the same analysts.",
+        "challenge": "A growing volume of health claims, mostly outpatient, reviewed by a small team on the previous claims system.",
+        "did": "Every claim is read, checked against the policy and tariffs, and flagged for medical relevance. The insurer's analysts approve each decision.",
+        "scale_value": "73,700+",
+        "scale_caption": "billed items checked across 17,800+ claims, every one reviewed, not a sample.",
+        "metrics": [
+          {
+            "value": "67 → 92",
+            "label": "claims finalised per working day"
+          },
+          {
+            "value": "14 → 7",
+            "label": "days for the slowest claims"
+          },
+          {
+            "value": "34 → 23",
+            "label": "staff minutes per claim"
+          },
+          {
+            "value": "92%",
+            "label": "finalised within 7 days"
+          }
+        ],
+        "hover_value": "38%",
+        "hover_caption": "more claims finalised per day",
+        "story_path": "/customers/mega-insurance/",
+        "story_title": "Mega Insurance | Customers | enterlabs",
+        "story_description": "38% more claims finalised per day at Mega Insurance, with the same analysts. Figures from January to September 2026, shared with client approval.",
+        "period": "January to September 2026",
+        "industry_label": "Health insurance, general insurer",
+        "use_case": "Health claims review",
+        "company_name": "Mega Insurance",
+        "customer": "Mega Insurance",
+        "about": "Mega Insurance is a general insurer. Its health claims team works with enterlabs on claims review.",
+        "hero_stats": [
+          {
+            "value": "38%",
+            "label": "more claims finalised per day"
+          },
+          {
+            "value": "73,700+",
+            "label": "billed items checked"
+          },
+          {
+            "value": "14 → 7",
+            "label": "days for the slowest claims"
+          }
+        ],
+        "challenge_h": "A growing claims volume for a small review team",
+        "challenge_body": "A growing volume of health claims, mostly outpatient, was reviewed by a small team on the previous claims system.",
+        "solution_h": "What we built",
+        "solution_lead": "Every claim is read, checked against the policy and tariffs, and flagged for medical relevance. The insurer's analysts approve each decision.",
+        "steps": [
+          {
+            "h": "Read each claim",
+            "p": "Every claim is read so the billed items can be reviewed in full."
+          },
+          {
+            "h": "Check against the policy and tariffs",
+            "p": "Each claim is checked against the policy and tariffs."
+          },
+          {
+            "h": "Flag for medical relevance",
+            "p": "Claims are flagged for medical relevance."
+          },
+          {
+            "h": "Analysts approve each decision",
+            "p": "The insurer's analysts approve each decision."
+          }
+        ],
+        "next_h": "More claim types, with analysts still in control",
+        "next_body": "enterlabs can extend the same claims review to more claim types. Analysts remain responsible for every approval decision."
+      },
+      {
+        "text": "What stood out was how quickly enterlabs understood our challenges, helped us focus on the right priorities, and turned them into practical solutions we could actually use.",
+        "name": "Raja Murali",
+        "role": "CEO of Medilink",
+        "img": "/assets/people/raja-murali.webp",
+        "id": "medilink",
+        "cover": "/assets/stories/medilink.webp",
+        "logo": "/assets/clients/medilink-white.webp",
+        "logo_alt": "PT Medilink",
+        "tag": "Health insurance · Claims through a TPA",
+        "client": "Takaful Keluarga with Medilink",
+        "client_logos": [
+          "/assets/clients/takaful-keluarga.png",
+          "/assets/clients/medilink.webp"
+        ],
+        "headline": "18% more overpayment caught than the year before.",
+        "challenge": "Monthly claim intake nearly tripled during the year, while every item still needed a check against the policy and clinical guidelines.",
+        "did": "Every billed item is checked against clinical guidelines, the policy and the insurer's past findings. Medilink's analysts make every approval decision.",
+        "scale_value": "76,000+",
+        "scale_caption": "billed items checked across 11,300+ claims, with 92% processed end to end by the AI.",
+        "metrics": [
+          {
+            "value": "14.4% → 17.1%",
+            "label": "of claim value identified as not payable"
+          },
+          {
+            "value": "92%",
+            "label": "of claims fully processed by the AI"
+          },
+          {
+            "value": "~3×",
+            "label": "monthly claim volume handled as intake grew"
+          }
+        ],
+        "hover_value": "18%",
+        "hover_caption": "more overpayment caught",
+        "story_path": "/customers/medilink/",
+        "story_title": "Takaful Keluarga with Medilink | Customers | enterlabs",
+        "story_description": "18% more overpayment caught than the year before, for Takaful Keluarga with Medilink. Figures from January to September 2026, shared with client approval.",
+        "period": "January to September 2026",
+        "industry_label": "Health insurance, claims through a TPA",
+        "use_case": "Health claims review",
+        "company_name": "Medilink",
+        "customer": "Takaful Keluarga with Medilink",
+        "about": "Takaful Keluarga works with Medilink, a third party administrator, on health insurance claims. Medilink's analysts make every approval decision in this programme.",
+        "hero_stats": [
+          {
+            "value": "18%",
+            "label": "more overpayment caught"
+          },
+          {
+            "value": "76,000+",
+            "label": "billed items checked"
+          },
+          {
+            "value": "92%",
+            "label": "processed end to end by the AI"
+          }
+        ],
+        "challenge_h": "A nearly tripled monthly claim intake, with every item still to check",
+        "challenge_body": "Monthly claim intake nearly tripled during the year, while every item still needed a check against the policy and clinical guidelines.",
+        "solution_h": "What we built",
+        "solution_lead": "Every billed item is checked against clinical guidelines, the policy and the insurer's past findings. Medilink's analysts make every approval decision.",
+        "steps": [
+          {
+            "h": "Read each billed item",
+            "p": "Every billed item is read so it can be checked in full."
+          },
+          {
+            "h": "Check against guidelines, the policy and past findings",
+            "p": "Each billed item is checked against clinical guidelines, the policy and the insurer's past findings."
+          },
+          {
+            "h": "Flag possible overpayment",
+            "p": "Items that may not be payable are flagged for review."
+          },
+          {
+            "h": "Analysts make every approval decision",
+            "p": "Medilink's analysts make every approval decision."
+          }
+        ],
+        "next_h": "More claim types, with analysts still in control",
+        "next_body": "enterlabs can extend the same claims review to more claim types. Analysts remain responsible for every approval decision."
+      }
+    ],
+    "investors": [
+      {
+        "src": "/assets/investors/iterative.png",
+        "src_on_dark": "/assets/investors/iterative-white.png",
+        "alt": "Iterative",
+        "w": 240,
+        "h": 50
+      },
+      {
+        "src": "/assets/investors/tis-inc.svg",
+        "src_on_dark": "/assets/investors/tis-inc-white.svg",
+        "alt": "TIS Inc.",
+        "w": 240,
+        "h": 65
+      }
+    ],
+    "email": "sales@enterlabs.ai",
+    "footer_entities": [
+      "Confluidity Pte. Ltd., Singapore.",
+      "PT Codemasters Nusantara Innovation, Jakarta.",
+      "Registered office: Jl. Yusuf Adiwinata No. 32/34 3, RT.2/RW.1, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, DKI Jakarta 10350"
+    ],
+    "footer_offices": [
+      {
+        "city": "Singapore",
+        "lines": [
+          "68 Circular Road #02-01",
+          "Singapore 049422"
+        ]
+      },
+      {
+        "city": "Jakarta",
+        "lines": [
+          "Jl. Yusuf Adiwinata No. 32/34, Menteng",
+          "Jakarta Pusat 10350"
+        ]
+      }
+    ],
+    "footer_tagline": "Intelligent document processing, with people in control.",
+    "footer_explore": [
+      {
+        "label": "Platform",
+        "href": "/platform/"
+      },
+      {
+        "label": "Industries",
+        "href": "/industries/"
+      },
+      {
+        "label": "Customers",
+        "href": "/customers/"
+      },
+      {
+        "label": "Company",
+        "href": "/company/"
+      },
+      {
+        "label": "Trust",
+        "href": "/trust/"
+      }
+    ],
+    "product_screen": {
+      "workspace": "Invoice match",
+      "id": "INV-18462",
+      "status": "Under review",
+      "supplier": "Meridian Supplies Ltd",
+      "documents": [
+        "Supplier invoice",
+        "PO-44109",
+        "DN-7721"
+      ],
+      "date": "12 Nov 2026",
+      "stats": [
+        {
+          "label": "Item flagged",
+          "value": "1",
+          "kind": "flag"
+        },
+        {
+          "label": "Invoice total",
+          "value": "USD 18,450.00",
+          "kind": "total"
+        },
+        {
+          "label": "Lines matched",
+          "value": "2 of 3",
+          "kind": "ok"
+        }
+      ],
+      "fields": [
+        {
+          "label": "Supplier",
+          "value": "Meridian Supplies Ltd",
+          "confidence": "99%",
+          "ok": true
+        },
+        {
+          "label": "Invoice date",
+          "value": "12 Nov 2026",
+          "confidence": "98%",
+          "ok": true
+        },
+        {
+          "label": "Invoice total",
+          "value": "USD 18,450.00",
+          "confidence": "99%",
+          "ok": true
+        },
+        {
+          "label": "Purchase order",
+          "value": "PO-44109",
+          "confidence": "97%",
+          "ok": true
+        }
+      ],
+      "cols": [
+        "Supplier invoice",
+        "Purchase order",
+        "Delivery note"
+      ],
+      "rows": [
+        {
+          "item": "Steel bracket A12 (qty)",
+          "v": [
+            "500",
+            "500",
+            "500"
+          ]
+        },
+        {
+          "item": "Hex bolt M8 (qty)",
+          "v": [
+            "1,200",
+            "1,200",
+            "1,000"
+          ],
+          "flag": 2,
+          "result": "Quantity differs"
+        },
+        {
+          "item": "Gasket set G4 (qty)",
+          "v": [
+            "250",
+            "250",
+            "250"
+          ]
+        }
+      ],
+      "finding": {
+        "item": "Hex bolt M8",
+        "kind": "Quantity mismatch",
+        "text": "The invoice bills 1,200 units and the purchase order allows 1,200, but the delivery note shows 1,000 received. 200 units are billed and not delivered. Review before payment."
+      },
+      "checks": [
+        {
+          "label": "Invoice total against purchase order",
+          "value": "USD 18,450.00 on both",
+          "ok": true
+        },
+        {
+          "label": "Delivery note against the order",
+          "value": "Hex bolt M8: 1,000 of 1,200 received",
+          "ok": false
+        },
+        {
+          "label": "Supplier details",
+          "value": "Meridian Supplies Ltd on all three documents",
+          "ok": true
+        }
+      ],
+      "preview": {
+        "title": "Supplier invoice",
+        "header": [
+          "Meridian Supplies Ltd",
+          "Invoice INV-18462",
+          "Date 12 Nov 2026",
+          "Bill to: Harbor Industrial Co",
+          "PO-44109"
+        ],
+        "items": [
+          {
+            "item": "Steel bracket A12",
+            "qty": "500",
+            "amount": "USD 6,250.00"
+          },
+          {
+            "item": "Hex bolt M8",
+            "qty": "1,200",
+            "amount": "USD 8,400.00"
+          },
+          {
+            "item": "Gasket set G4",
+            "qty": "250",
+            "amount": "USD 3,800.00"
+          }
+        ],
+        "total": "USD 18,450.00"
+      },
+      "audit": [
+        {
+          "time": "09:14",
+          "text": "Invoice INV-18462 received with purchase order PO-44109 and delivery note DN-7721."
+        },
+        {
+          "time": "09:16",
+          "text": "Fields extracted and checked against the source documents."
+        },
+        {
+          "time": "09:16",
+          "text": "Quantity mismatch flagged on Hex bolt M8: 1,200 invoiced, 1,000 delivered."
+        },
+        {
+          "time": "09:21",
+          "text": "Jordan Ellis opened the finding and kept it under review."
+        }
+      ]
+    },
+    "footer_legal": [
+      {
+        "label": "Privacy",
+        "href": "/legal/privacy/"
+      },
+      {
+        "label": "Website terms",
+        "href": "/legal/website-terms/"
+      },
+      {
+        "label": "Cookies",
+        "href": "/legal/cookies/"
+      },
+      {
+        "label": "Legal",
+        "href": "/legal/"
+      }
+    ],
+    "cases_footnote": "Figures from January to September 2026, shared with client approval."
+  },
+  "pages": {
+    "home": {
+      "path": "/",
+      "title": "enterlabs",
+      "description": "enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.",
+      "kicker": "Intelligent document processing",
+      "h1": "Less manual work.",
+      "h1_em": "More margin.",
+      "lead": "enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.",
+      "primary_cta": {
+        "label": "See how it works",
+        "href": "#story"
+      },
+      "secondary_cta": {
+        "label": "Book a demo",
+        "href": "/book-a-demo/"
+      },
+      "problem_kicker": "The problem",
+      "problem_h2": "The truth is in the file. Getting it out is the work.",
+      "problem_lead": "Teams work too hard for too little. Skilled people spend their days rereading documents, reconciling figures and assembling a record for someone else to decide. The predictable part of that work can be automated. The rest still needs a person, and that person needs evidence.",
+      "problem_cards": [
+        {
+          "h": "Reading to find what matters",
+          "p": "Fields, line items and references are buried in documents, often across many pages and formats."
+        },
+        {
+          "h": "Checking against rules that live elsewhere",
+          "p": "The document is only half the question. Agreed tariffs, policies and references have to sit beside it or the check is guesswork."
+        },
+        {
+          "h": "Deciding without a clear record",
+          "p": "When a finding is handed on, the source, the rule and the review action should travel with it."
+        }
+      ],
+      "story_kicker": "What changes",
+      "story_h2": "Automate the predictable. Keep people on the rest, with evidence.",
+      "story_steps": [
+        {
+          "num": "01",
+          "h": "Extract",
+          "p": "Read every field from the source. Flag what looks altered, then map each value with its confidence.",
+          "alt": "Invoice fields extracted beside the source document, with confidence on each field",
+          "view": "extract"
+        },
+        {
+          "num": "02",
+          "h": "Analyze",
+          "p": "Every field, cross-checked against the purchase order and delivery note. Material differences rise to the surface.",
+          "alt": "Line item check showing a quantity mismatch between the invoice and the delivery note",
+          "view": "exception"
+        },
+        {
+          "num": "03",
+          "h": "Control",
+          "p": "Your team makes the call. Status updates, the count moves, and the next step is ready to forward.",
+          "alt": "Review status changing from awaiting review to passed, then forward to approver",
+          "view": "audit"
+        }
+      ],
+      "proven_kicker": "In production",
+      "proven_h2": "Already in production.",
+      "proven_lead": "The platform is live today. Teams use it to structure documents, check every detail and keep a record of every review.",
+      "proven_link": {
+        "label": "See the live insurance case",
+        "href": "/industries/health-insurance-claims/"
+      },
+      "industries_kicker": "Who it is for",
+      "industries_h2": "A platform for document heavy work",
+      "industries_lead": "Choose an industry to see how enterlabs works with insurance, healthcare providers, banking and lending, logistics and trade, and manufacturing.",
+      "industries_link": {
+        "label": "See industries",
+        "href": "/industries/"
+      },
+      "quotes_kicker": "Customer perspectives",
+      "quotes_h2": "In their words",
+      "quotes_link": {
+        "label": "See customers",
+        "href": "/customers/"
+      },
+      "investors_kicker": "Investors",
+      "investors_h2": "Backed by investors who build for the long term.",
+      "trust_kicker": "Trust and security",
+      "trust_h2": "People make the final call.",
+      "trust_lead": "The platform prepares the record and surfaces what needs attention. Qualified reviewers inspect the evidence and remain responsible for the decision.",
+      "trust_items": [
+        {
+          "img": "/assets/trust/compliance-iso27001.webp",
+          "alt": "ISO/IEC 27001:2022 badge",
+          "h": "ISO/IEC 27001:2022",
+          "p": "Information security management certified by INTERCERT. Certificate IC-IS-2608218, valid to 18 August 2027."
+        },
+        {
+          "img": "/assets/trust/compliance-pdpa.webp",
+          "alt": "Singapore PDPA badge",
+          "h": "Singapore PDPA",
+          "p": "Practices that comply with Singapore's Personal Data Protection Act."
+        },
+        {
+          "img": "/assets/trust/compliance-gdpr.webp",
+          "alt": "GDPR badge",
+          "h": "GDPR",
+          "p": "Practices aligned with the GDPR."
+        }
+      ],
+      "trust_link": {
+        "label": "Read about trust",
+        "href": "/trust/"
+      },
+      "close_kicker": "Next step",
+      "close_h2": "Turn documents into confident decisions.",
+      "close_lead": "Any document, any industry. Let's talk about yours.",
+      "systems_kicker": "Integration and deployment",
+      "systems_h2": "From document to your systems.",
+      "systems_lead": "Documents can reach enterlabs from email, uploads, scans or system exports. The platform structures and checks them, then returns clean data through APIs and field mappings agreed around the systems you already use.",
+      "industries_picker_label": "Choose an industry",
+      "hero_screen": {
+        "view": "overview",
+        "alt": "Document workspace showing a supplier invoice checked against a purchase order and a delivery note"
+      },
+      "systems_toggle_label": "How processing is deployed",
+      "systems_modes": [
+        {
+          "id": "managed",
+          "label": "Managed cloud",
+          "p": "Processing, storage, retention and access are scoped with your security team."
+        },
+        {
+          "id": "hybrid",
+          "label": "Hybrid private cloud",
+          "p": "Document processing and personal data redaction can run in your environment before redacted data reaches the managed cloud."
+        }
+      ],
+      "systems_sources": [
+        {
+          "id": "email",
+          "label": "Email"
+        },
+        {
+          "id": "uploads",
+          "label": "Uploads"
+        },
+        {
+          "id": "scans",
+          "label": "Scans"
+        },
+        {
+          "id": "exports",
+          "label": "System exports"
+        }
+      ],
+      "systems_node_enterlabs": "enterlabs structures and checks",
+      "systems_node_redact": "Redaction in your environment",
+      "systems_node_out": "APIs and field mappings",
+      "systems_node_systems": "Your systems",
+      "stats": [
+        {
+          "num": "10",
+          "unit": "years",
+          "cap": "of enterprise software implementation experience"
+        },
+        {
+          "num": "100",
+          "sup": "+",
+          "cap": "organizations served across Indonesia"
+        },
+        {
+          "num": "8M+",
+          "cap": "unstructured data processed through IDP"
+        }
+      ],
+      "doc_wall": {
+        "line1": "Every industry runs on documents.",
+        "line2": "Most still get read and keyed in by hand.",
+        "cards": [
+          {
+            "label": "Purchase order",
+            "kicker": "PO-44109",
+            "lines": [
+              "Harbor Industrial Co",
+              "Steel bracket A12",
+              "Hex bolt M8",
+              "Gasket set G4"
+            ]
+          },
+          {
+            "label": "COO application",
+            "kicker": "Certificate of origin",
+            "lines": [
+              "Exporter: Meridian Supplies Ltd",
+              "Goods: Fasteners and brackets",
+              "Origin declared",
+              "Packing: 3 lines"
+            ]
+          },
+          {
+            "label": "Technical sheet",
+            "kicker": "Steel bracket A12",
+            "lines": [
+              "Grade: structural steel",
+              "Finish: zinc plated",
+              "Units: 500",
+              "Spec sheet Rev B"
+            ]
+          },
+          {
+            "label": "Goods receipt",
+            "kicker": "DN-7721",
+            "lines": [
+              "Delivered to Harbor Industrial",
+              "Steel bracket A12  500",
+              "Hex bolt M8  1,000",
+              "Gasket set G4  250"
+            ]
+          },
+          {
+            "label": "Product technical sheet",
+            "kicker": "Hex bolt M8",
+            "lines": [
+              "Thread: M8",
+              "Length: 25 mm",
+              "Finish: black oxide",
+              "Standard: ISO 4017"
+            ]
+          },
+          {
+            "label": "Invoice",
+            "kicker": "INV-18462",
+            "lines": [
+              "Meridian Supplies Ltd",
+              "Bill to: Harbor Industrial Co",
+              "PO-44109",
+              "Total  USD 18,450.00"
+            ]
+          }
+        ]
+      }
+    },
+    "platform": {
+      "path": "/platform/",
+      "title": "Platform | enterlabs",
+      "description": "How enterlabs prepares documents, surfaces exceptions and keeps a clear record, with people responsible for the final decision.",
+      "kicker": "Platform",
+      "h1": "From document to a record someone can stand behind.",
+      "lead": "Most of the work is predictable: reading a file, checking it against a rule, and preparing the evidence. enterlabs takes on that work. People stay with the exceptions, and every finding keeps its source beside it.",
+      "intro": "The screens below follow a supplier invoice checked against a purchase order and a delivery note. The same sequence applies wherever a team has to read, check and hand on a document.",
+      "pillars": [
+        {
+          "kicker": "01",
+          "h": "Document intelligence",
+          "p": "Extract fields and line items from any document. Review each value beside the original document. Corrections go into the audit record, and values stay linked to their source.",
+          "alt": "Extracted invoice fields shown beside the source document, with confidence on each field",
+          "view": "extract"
+        },
+        {
+          "kicker": "02",
+          "h": "Checks and exceptions",
+          "p": "Compare extracted values with the references you already trust. Material differences rise so an analyst can look closer.",
+          "note": "Findings require human assessment. They do not establish fraud. A variance prompts review; it does not by itself establish an overpayment.",
+          "alt": "Line item check showing a quantity mismatch between the invoice and the delivery note",
+          "view": "exception"
+        },
+        {
+          "kicker": "03",
+          "h": "Review and a clear record",
+          "p": "Route work to the people who should see it. Corrections and review actions stay in the audit trail. Qualified reviewers remain responsible for the decision.",
+          "alt": "Audit log of extraction, a flagged mismatch and a reviewer action",
+          "view": "audit"
+        }
+      ],
+      "integrate_kicker": "Integration and deployment",
+      "integrate_h2": "Works with the systems you already have.",
+      "integrate_lead": "We map how documents and data enter the platform, and how reviewed results return. Identifiers, fields and ownership are agreed for the records you already keep. API payloads, status changes and error handling are scoped around the systems you use.",
+      "deploy": [
+        {
+          "h": "Managed cloud",
+          "p": "Processing, storage, retention and access are scoped with your security team."
+        },
+        {
+          "h": "Hybrid private cloud",
+          "p": "Document processing and personal data redaction can run in your environment before redacted data reaches the managed cloud."
+        }
+      ],
+      "close_h2": "Turn documents into confident decisions.",
+      "close_lead": "Any document, any industry. Let's talk about yours."
+    },
+    "industries": {
+      "path": "/industries/",
+      "title": "Industries | enterlabs",
+      "description": "enterlabs works with insurance, healthcare providers, banking and lending, logistics and trade, and manufacturing. Health insurance claims is the live, in production case.",
+      "kicker": "Industries",
+      "h1": "Built for document heavy work. Proven in claims.",
+      "lead": "enterlabs is for teams that spend too much time reading, checking and preparing documents. Health insurance claims is the live, in production case in insurance. Choose an industry to see the document checks the platform runs.",
+      "proven": {
+        "h": "Health insurance claims",
+        "p": "Health insurers and third-party administrators use the platform to structure claim documents, check them against agreed rules, and keep a record of every review.",
+        "href": "/industries/health-insurance-claims/",
+        "label": "See the health insurance claims case"
+      },
+      "reach_h2": "Industries",
+      "reach_lead": "Choose an industry to see a typical problem and the checks enterlabs runs on those documents.",
+      "reach": [
+        {
+          "h": "Insurance",
+          "p": "Claims, policies and underwriting files. A claim, a policy and an underwriting file have to agree before anyone can decide."
+        },
+        {
+          "h": "Healthcare providers",
+          "p": "Medical records, bills and claim submissions. A claim can stall when the medical record, the bill and the submission do not tell the same story."
+        },
+        {
+          "h": "Banking and lending",
+          "p": "Loan applications, bank statements and KYC documents. A lending file only holds together if the application, the statements and the KYC documents agree."
+        },
+        {
+          "h": "Logistics and trade",
+          "p": "Invoices, packing lists, bills of lading and customs documents. A shipment is split across invoices, packing lists, bills of lading and customs documents that have to line up."
+        },
+        {
+          "h": "Manufacturing",
+          "p": "Purchase orders, delivery notes, supplier invoices and quality certificates. A supplier invoice should be paid only when it agrees with the purchase order, the delivery note and the quality certificate."
+        }
+      ],
+      "picker_label": "Choose an industry",
+      "close_h2": "Turn documents into confident decisions.",
+      "close_lead": "Any document, any industry. Let's talk about yours.",
+      "options": [
+        {
+          "id": "insurance",
+          "label": "Insurance",
+          "kicker": "In production",
+          "docs": "Claims, policies and underwriting files.",
+          "problem": "A claim, a policy and an underwriting file have to agree before anyone can decide.",
+          "checks": [
+            "Check billed items against the policy, tariff or underwriting file.",
+            "Match claim figures to the source bill or form.",
+            "Surface duplicate or inconsistent items for review."
+          ],
+          "href": "/industries/health-insurance-claims/",
+          "link": "See the health insurance claims case",
+          "note": "Health insurance claims is the live, in production case.",
+          "page_href": "/industries/insurance/",
+          "page_link": "See the insurance page"
+        },
+        {
+          "id": "healthcare-providers",
+          "label": "Healthcare providers",
+          "docs": "Medical records, bills and claim submissions.",
+          "problem": "A claim can stall when the medical record, the bill and the submission do not tell the same story.",
+          "checks": [
+            "Match billed items to the medical record.",
+            "Check a claim submission against the supporting bill.",
+            "Flag missing or inconsistent documents for review."
+          ],
+          "page_href": "/industries/healthcare-providers/",
+          "page_link": "See the healthcare providers page"
+        },
+        {
+          "id": "banking-and-lending",
+          "label": "Banking and lending",
+          "docs": "Loan applications, bank statements and KYC documents.",
+          "problem": "A lending file only holds together if the application, the statements and the KYC documents agree.",
+          "checks": [
+            "Check statement figures against the application.",
+            "Match identity details across KYC documents.",
+            "Surface inconsistencies in the supporting pack for review."
+          ],
+          "page_href": "/industries/banking-and-lending/",
+          "page_link": "See the banking and lending page"
+        },
+        {
+          "id": "logistics-and-trade",
+          "label": "Logistics and trade",
+          "docs": "Invoices, packing lists, bills of lading and customs documents.",
+          "problem": "A shipment is split across invoices, packing lists, bills of lading and customs documents that have to line up.",
+          "checks": [
+            "Match invoice totals to packing lists.",
+            "Check quantities against the bill of lading.",
+            "Compare invoice and customs figures for review."
+          ],
+          "page_href": "/industries/logistics-and-trade/",
+          "page_link": "See the logistics and trade page"
+        },
+        {
+          "id": "manufacturing",
+          "label": "Manufacturing",
+          "docs": "Purchase orders, delivery notes, supplier invoices and quality certificates.",
+          "problem": "A supplier invoice should be paid only when it agrees with the purchase order, the delivery note and the quality certificate.",
+          "checks": [
+            "Match invoice totals to purchase orders.",
+            "Check delivery notes against the order.",
+            "Compare supplier invoices with quality certificates for review."
+          ],
+          "page_href": "/industries/manufacturing/",
+          "page_link": "See the manufacturing page"
+        }
+      ]
+    },
+    "health": {
+      "path": "/industries/health-insurance-claims/",
+      "title": "Health insurance claims | enterlabs",
+      "description": "How insurers and TPAs use enterlabs to structure claim documents, check them against agreed rules, and keep a record of every review.",
+      "kicker": "In production",
+      "h1": "Health insurance claims",
+      "lead": "This is the in production example today. Health insurers and third-party administrators use the platform to prepare claim files, check them against agreed rules, and keep people in control of the decision.",
+      "who_h2": "Who uses it",
+      "who_lead": "The platform is used by health insurers and by TPAs that review claims on behalf of insurer clients. Named customers are on the customers page.",
+      "how_h2": "How a claim moves through the platform",
+      "how": [
+        {
+          "h": "Prepare the data",
+          "p": "Extract details from any claim document, including bills, forms, medical summaries and supporting documents. Check each field against its source."
+        },
+        {
+          "h": "Check against agreed rules",
+          "p": "Compare the file with configured eligibility conditions, benefit limits and tariff data. Surface medical relevance issues, possible duplicates and potential tampering signals for a person to assess."
+        },
+        {
+          "h": "Review and record",
+          "p": "Route the file to analysts, quality reviewers or medical advisors as configured. Corrections and review actions stay in the audit trail. People make the final call."
+        }
+      ],
+      "qualify": "Findings require human assessment. They do not establish fraud. A variance prompts review; it does not by itself establish an overpayment.",
+      "docs_h2": "Documents the claims workflow already handles",
+      "docs_lead": "The claims workflow handles documents such as itemised bills, medical summaries, policy and enrolment data, benefit mappings, tariff schedules, and completed TPA review results.",
+      "close_lead": "If you work in claims, we can walk through a file your team already knows."
+    },
+    "customers": {
+      "path": "/customers/",
+      "title": "Customers | enterlabs",
+      "description": "Results from live claims programmes with Mega Insurance and Takaful Keluarga with Medilink, shared with client approval.",
+      "kicker": "Customers",
+      "h1": "Trusted by teams across industries.",
+      "lead": "A representative list of clients, and results from two live claims programmes.",
+      "quotes_h2": "In their words",
+      "quotes_note": ""
+    },
+    "trust": {
+      "path": "/trust/",
+      "title": "Trust and security | enterlabs",
+      "description": "Review enterlabs security practices, certification, data handling and deployment considerations with your IT and security teams.",
+      "kicker": "Trust and security",
+      "h1": "Protect the data.",
+      "h1_line2": "Keep the review clear.",
+      "lead": "Explore our controls, privacy practices and deployment options with your IT and security teams.",
+      "primary_cta": {
+        "label": "Book a demo",
+        "href": "/book-a-demo/"
+      },
+      "compliance_kicker": "Security and privacy",
+      "compliance_h2": "Security and privacy, in practice.",
+      "compliance_lead": "Explore supporting information in our trust center and the Security Overview, then discuss the requirements of your deployment.",
+      "frameworks": [
+        {
+          "img": "/assets/trust/compliance-iso27001.webp",
+          "alt": "ISO/IEC 27001:2022 badge",
+          "h": "ISO/IEC 27001:2022",
+          "status": "Certified",
+          "kind": "current",
+          "href": "/legal/security/"
+        },
+        {
+          "img": "/assets/trust/compliance-pdpa.webp",
+          "alt": "Singapore PDPA badge",
+          "h": "Singapore PDPA",
+          "status": "Compliant",
+          "kind": "current"
+        },
+        {
+          "img": "/assets/trust/uu-pdp-shield.png",
+          "alt": "UU PDP shield",
+          "h": "Indonesia UU PDP",
+          "status": "Compliant",
+          "kind": "current",
+          "art": false
+        },
+        {
+          "img": "/assets/trust/compliance-gdpr.webp",
+          "alt": "GDPR badge",
+          "h": "GDPR",
+          "status": "Aligned practices",
+          "kind": "aligned"
+        }
+      ],
+      "deploy_kicker": "01 / Deployment planning",
+      "deploy_h2": "Follow the data.",
+      "deploy_lead": "Follow the document data. Agree the requirements at every stage.",
+      "deploy_items": [
+        {
+          "h": "Data handling and residency",
+          "p": "Confirm where documents are stored and processed, who holds them and what retention and deletion requirements apply."
+        },
+        {
+          "h": "Infrastructure fit",
+          "p": "Choose a fully managed cloud or scope a hybrid in-tenant deployment. In the hybrid model, document processing and personal-data redaction run within the client environment before redacted data reaches the enterlabs cloud."
+        },
+        {
+          "h": "Roles and access",
+          "p": "Role-based access follows least privilege. Authentication requirements are configured for the applicable accounts. Define analyst, quality-review and administration responsibilities for the workflow."
+        },
+        {
+          "h": "Human oversight",
+          "p": "The platform supports your existing team. Your reviewers inspect the outputs and remain responsible for the final decision."
+        }
+      ],
+      "diligence_kicker": "02 / Security diligence",
+      "diligence_h2": "Make diligence straightforward.",
+      "diligence_lead": "Review the evidence, clarify ownership and agree acceptance criteria.",
+      "diligence_questions": [
+        {
+          "num": "01",
+          "h": "Evidence and documentation",
+          "p": "Discuss the security documentation and control evidence needed to evaluate the proposed deployment.",
+          "agree_h": "Agree together",
+          "agree": "Requested evidence, applicable scope and the person responsible for supplying it."
+        },
+        {
+          "num": "02",
+          "h": "Data responsibilities",
+          "p": "Clarify who owns document handling, reference data, integrations and human correction.",
+          "agree_h": "Agree together",
+          "agree": "Responsibilities to carry into the implementation plan and contracting discussion."
+        },
+        {
+          "num": "03",
+          "h": "Validation before rollout",
+          "p": "Choose representative documents, expected test results and acceptance criteria for the actual workflow.",
+          "agree_h": "Agree together",
+          "agree": "The test scope, expected-results owner and criteria for moving forward."
+        },
+        {
+          "num": "04",
+          "h": "Traceable review actions",
+          "p": "Confirm which corrections and review actions need to be retained for quality checks and follow-up.",
+          "agree_h": "Agree together",
+          "agree": "The reporting and record requirements of your operating process."
+        }
+      ],
+      "controls_kicker": "Controls in practice",
+      "controls_h2": "Protect the data.",
+      "controls_h2_line2": "Keep the review traceable.",
+      "controls": [
+        {
+          "icon": "lock",
+          "h": "Encryption and separation",
+          "p": "Encryption measures include application-level AES-GCM encryption. Development, staging and production environments are separated."
+        },
+        {
+          "icon": "doc",
+          "h": "Redaction and data minimisation",
+          "p": "Personal-data redaction happens before LLM processing. Redacted personal data is treated as personal data, with processing locations and transfers addressed in the agreed deployment and data-processing terms."
+        },
+        {
+          "icon": "log",
+          "h": "Logging and AI traceability",
+          "p": "Authentication, data access and administrative actions are logged. Reviewers can trace AI outputs to source documents and the relevant rule or reference."
+        },
+        {
+          "icon": "people",
+          "h": "Data-processing responsibilities",
+          "p": "The customer remains the data controller. Processing terms, retention, deletion and applicable sub-processors are addressed in the client data-processing agreement and maintained sub-processor register."
+        }
+      ],
+      "controls_cta": {
+        "label": "Book a demo",
+        "href": "/book-a-demo/"
+      },
+      "controls_contact": {
+        "label": "Contact sales@enterlabs.ai",
+        "href": "mailto:sales@enterlabs.ai"
+      }
+    },
+    "company": {
+      "path": "/company/",
+      "title": "Company | enterlabs",
+      "description": "enterlabs is operated by Confluidity Pte. Ltd. in Singapore, and is backed by Iterative and TIS Inc.",
+      "kicker": "Company",
+      "h1": "A company built around the work teams should not still be doing by hand.",
+      "lead": "Too many skilled people work too hard for too little, rereading files and rebuilding a record so someone else can decide. enterlabs exists to automate the predictable parts of that work, and to keep humans in the loop for the unpredictable, with evidence beside every finding.",
+      "about_h2": "Who we are",
+      "about": "enterlabs is the name of the company and the platform. We build intelligent document processing for document heavy work, with health insurance claims as the in production example today.",
+      "entities_h2": "Legal entities",
+      "entities": [
+        {
+          "h": "Confluidity Pte. Ltd.",
+          "p": "Singapore company. Owns the platform and intellectual property. Contracting entity and website operator.",
+          "facts": []
+        },
+        {
+          "h": "PT Codemasters Nusantara Innovation",
+          "p": "Indonesian operating subsidiary. Local implementation, support and client services.",
+          "facts": []
+        }
+      ],
+      "investors_kicker": "Investors",
+      "investors_h2": "Backed by investors who build for the long term.",
+      "investors_lead": "enterlabs is backed by Iterative and TIS Inc.",
+      "close_h2": "Turn documents into confident decisions.",
+      "close_lead": "Any document, any industry. Let's talk about yours.",
+      "entities_lead": "enterlabs is operated by Confluidity Pte. Ltd. in Singapore, with PT Codemasters Nusantara Innovation providing implementation and client services in Indonesia.",
+      "entities_link": "/legal/entities/",
+      "entities_link_label": "Legal names, registration details and notice addresses"
+    },
+    "demo": {
+      "path": "/book-a-demo/",
+      "title": "Book a demo | enterlabs",
+      "description": "Book a walkthrough of enterlabs. Any document, any industry.",
+      "kicker": "Book a demo",
+      "h1": "Turn documents into confident decisions.",
+      "lead": "Any document, any industry. Let's talk about yours. We will follow up to arrange a demonstration. Prefer email? Write to sales@enterlabs.ai.",
+      "form_name": "book-a-demo",
+      "fields": [
+        {
+          "name": "name",
+          "label": "Name",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "company",
+          "label": "Company",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "email",
+          "label": "Work email",
+          "type": "email",
+          "required": true
+        },
+        {
+          "name": "role",
+          "label": "Role",
+          "type": "text",
+          "required": false
+        },
+        {
+          "name": "documents",
+          "label": "What documents does your team work with?",
+          "type": "textarea",
+          "required": false
+        },
+        {
+          "name": "message",
+          "label": "Anything else we should know",
+          "type": "textarea",
+          "required": false
+        }
+      ],
+      "submit": "Request a demo",
+      "hint": "Use this form only to arrange a demonstration. Please do not send health information or personal data about members or customers.",
+      "thanks_path": "/book-a-demo/thanks/",
+      "thanks_title": "Request received | enterlabs",
+      "thanks_h1": "Thank you. We will be in touch.",
+      "thanks_lead": "We have received your request for a demonstration and will follow up at the email you provided."
+    },
+    "industry_pages": {
+      "insurance": {
+        "title": "Insurance | enterlabs",
+        "description": "enterlabs reads claims, policies and underwriting files and checks them against agreed rules. Health insurance claims is the live, in production case.",
+        "h1": "Insurance files that agree before a decision",
+        "lead": "enterlabs works with claims, policies and underwriting files. Health insurance claims is the live, in production case.",
+        "how": [
+          {
+            "h": "Prepare the data",
+            "p": "enterlabs reads claim forms, bills, policies and underwriting files and turns them into structured data."
+          },
+          {
+            "h": "Check against agreed rules",
+            "p": "It checks billed items and figures against the policy, tariff or underwriting file and shows the reason for each finding."
+          },
+          {
+            "h": "Review and record",
+            "p": "A person reviews each flagged item and makes the final call. Every review is recorded."
+          }
+        ],
+        "screen_h2": "An example screen",
+        "screen_lead": "A claim invoice with each line linked back to the source form. This screen comes from the health insurance claims case.",
+        "image": {
+          "src": "/assets/product/document-intelligence.webp",
+          "alt": "Invoice line items linked back to the source health form"
+        },
+        "extra_link": {
+          "label": "See the health insurance claims case",
+          "href": "/industries/health-insurance-claims/"
+        },
+        "close_h2": "Tell us about your claims, policy or underwriting files.",
+        "close_lead": "Start with one claim your team already knows and see the checks on your own documents.",
+        "slug": "insurance",
+        "path": "/industries/insurance/",
+        "label": "Insurance",
+        "kicker": "Industries",
+        "docs": "Claims, policies and underwriting files.",
+        "problem": "A claim, a policy and an underwriting file have to agree before anyone can decide.",
+        "checks": [
+          "Check billed items against the policy, tariff or underwriting file.",
+          "Match claim figures to the source bill or form.",
+          "Surface duplicate or inconsistent items for review."
+        ],
+        "problem_h2": "The problem",
+        "checks_h2": "Example checks",
+        "how_h2": "How it works"
+      },
+      "healthcare-providers": {
+        "title": "Healthcare providers | enterlabs",
+        "description": "enterlabs matches medical records, bills and claim submissions and flags what does not line up for review.",
+        "h1": "Healthcare billing that matches the record",
+        "lead": "enterlabs works with medical records, bills and claim submissions, so a claim goes out with documents that agree.",
+        "how": [
+          {
+            "h": "Prepare the data",
+            "p": "enterlabs reads medical records, bills and claim submissions and turns them into structured data."
+          },
+          {
+            "h": "Check against agreed rules",
+            "p": "It matches billed items to the medical record and the claim submission to the supporting bill."
+          },
+          {
+            "h": "Review and record",
+            "p": "A person reviews each flagged item and makes the final call. Every review is recorded."
+          }
+        ],
+        "screen_h2": "An example screen",
+        "screen_lead": "A medical record, a bill and a claim submission side by side. One billed item with no entry in the record is flagged for review.",
+        "close_h2": "Tell us about the records and bills your team handles.",
+        "close_lead": "Start with one claim submission and see the checks on your own documents.",
+        "mock": {
+          "crumb": "Provider billing",
+          "crumb_active": "Claim check",
+          "ref": "ADM-5521",
+          "status": "Under review",
+          "meta": [
+            "Patient: Jordan Lee",
+            "Inpatient",
+            "City Care Clinic"
+          ],
+          "cols": [
+            "Medical record",
+            "Bill",
+            "Claim submission"
+          ],
+          "rows": [
+            {
+              "item": "Ward stay",
+              "v": [
+                "3 nights",
+                "3 nights",
+                "3 nights"
+              ]
+            },
+            {
+              "item": "Appendectomy",
+              "v": [
+                "Recorded",
+                "Billed x1",
+                "Submitted x1"
+              ]
+            },
+            {
+              "item": "Chest X-ray",
+              "v": [
+                "Not recorded",
+                "Billed x1",
+                "Submitted x1"
+              ],
+              "flag": 0,
+              "result": "Not in record"
+            },
+            {
+              "item": "Paracetamol 500 mg",
+              "v": [
+                "Recorded",
+                "Billed x20",
+                "Submitted x20"
+              ]
+            }
+          ],
+          "finding": {
+            "item": "Chest X-ray",
+            "kind": "Not in medical record",
+            "text": "The bill and the claim submission include a chest X-ray. The medical record has no entry for it. Review with the clinic before the claim is submitted."
+          },
+          "checks": [
+            {
+              "label": "Billed items against the medical record",
+              "value": "1 item not in the record",
+              "ok": false
+            },
+            {
+              "label": "Claim submission against the bill",
+              "value": "All items and totals agree",
+              "ok": true
+            },
+            {
+              "label": "Supporting documents",
+              "value": "Record, bill and submission present",
+              "ok": true
+            }
+          ]
+        },
+        "slug": "healthcare-providers",
+        "path": "/industries/healthcare-providers/",
+        "label": "Healthcare providers",
+        "kicker": "Industries",
+        "docs": "Medical records, bills and claim submissions.",
+        "problem": "A claim can stall when the medical record, the bill and the submission do not tell the same story.",
+        "checks": [
+          "Match billed items to the medical record.",
+          "Check a claim submission against the supporting bill.",
+          "Flag missing or inconsistent documents for review."
+        ],
+        "problem_h2": "The problem",
+        "checks_h2": "Example checks",
+        "how_h2": "How it works"
+      },
+      "banking-and-lending": {
+        "title": "Banking and lending | enterlabs",
+        "description": "enterlabs checks loan applications, bank statements and KYC documents against each other and flags differences for review.",
+        "h1": "Lending files that hold together",
+        "lead": "enterlabs works with loan applications, bank statements and KYC documents, so an analyst sees differences before a decision.",
+        "how": [
+          {
+            "h": "Prepare the data",
+            "p": "enterlabs reads loan applications, bank statements and KYC documents and turns them into structured data."
+          },
+          {
+            "h": "Check against agreed rules",
+            "p": "It compares statement figures with the application and identity details across the KYC documents."
+          },
+          {
+            "h": "Review and record",
+            "p": "A person reviews each flagged item and makes the final call. Every review is recorded."
+          }
+        ],
+        "screen_h2": "An example screen",
+        "screen_lead": "A loan application checked against bank statements and a KYC document. One income difference is flagged for review.",
+        "close_h2": "Tell us about the files your credit team reviews.",
+        "close_lead": "Start with one loan file and see the checks on your own documents.",
+        "mock": {
+          "crumb": "Lending",
+          "crumb_active": "Application check",
+          "ref": "LN-20931",
+          "status": "Under review",
+          "meta": [
+            "Applicant: Alex Moreno",
+            "Personal loan",
+            "USD 25,000 requested"
+          ],
+          "cols": [
+            "Application",
+            "Bank statements",
+            "KYC document"
+          ],
+          "rows": [
+            {
+              "item": "Full name",
+              "v": [
+                "Alex Moreno",
+                "Alex Moreno",
+                "Alex Moreno"
+              ]
+            },
+            {
+              "item": "Date of birth",
+              "v": [
+                "14 Mar 1988",
+                "n/a",
+                "14 Mar 1988"
+              ]
+            },
+            {
+              "item": "Employer",
+              "v": [
+                "Harbor Retail Ltd",
+                "Harbor Retail Ltd",
+                "n/a"
+              ]
+            },
+            {
+              "item": "Monthly income (USD)",
+              "v": [
+                "6,500",
+                "4,820",
+                "n/a"
+              ],
+              "flag": 1,
+              "result": "Income variance"
+            }
+          ],
+          "finding": {
+            "item": "Monthly income",
+            "kind": "Income variance",
+            "text": "The application states USD 6,500 a month. Salary credits on the statements average USD 4,820 over three months, a difference of USD 1,680. Review before the file moves on."
+          },
+          "checks": [
+            {
+              "label": "Statement figures against the application",
+              "value": "Monthly income differs by USD 1,680",
+              "ok": false
+            },
+            {
+              "label": "Identity details across KYC documents",
+              "value": "Name and date of birth agree",
+              "ok": true
+            },
+            {
+              "label": "Supporting pack",
+              "value": "1 item flagged for review",
+              "ok": false
+            }
+          ]
+        },
+        "slug": "banking-and-lending",
+        "path": "/industries/banking-and-lending/",
+        "label": "Banking and lending",
+        "kicker": "Industries",
+        "docs": "Loan applications, bank statements and KYC documents.",
+        "problem": "A lending file only holds together if the application, the statements and the KYC documents agree.",
+        "checks": [
+          "Check statement figures against the application.",
+          "Match identity details across KYC documents.",
+          "Surface inconsistencies in the supporting pack for review."
+        ],
+        "problem_h2": "The problem",
+        "checks_h2": "Example checks",
+        "how_h2": "How it works"
+      },
+      "logistics-and-trade": {
+        "title": "Logistics and trade | enterlabs",
+        "description": "enterlabs lines up invoices, packing lists, bills of lading and customs documents and flags differences for review.",
+        "h1": "Shipments where every document lines up",
+        "lead": "enterlabs works with invoices, packing lists, bills of lading and customs documents, so differences surface before a shipment moves.",
+        "how": [
+          {
+            "h": "Prepare the data",
+            "p": "enterlabs reads invoices, packing lists, bills of lading and customs documents and turns them into structured data."
+          },
+          {
+            "h": "Check against agreed rules",
+            "p": "It lines up totals, quantities and weights across the set of documents for each shipment."
+          },
+          {
+            "h": "Review and record",
+            "p": "A person reviews each flagged item and makes the final call. Every review is recorded."
+          }
+        ],
+        "screen_h2": "An example screen",
+        "screen_lead": "An invoice, a packing list and a bill of lading side by side. One quantity difference is flagged for review.",
+        "close_h2": "Tell us about the shipping and trade documents your team handles.",
+        "close_lead": "Start with one shipment and see the checks on your own documents.",
+        "mock": {
+          "crumb": "Trade documents",
+          "crumb_active": "Shipment check",
+          "ref": "SHP-77120",
+          "status": "Under review",
+          "meta": [
+            "Exporter: Lakeside Textiles",
+            "Consignee: Harbour Trading Co",
+            "Sea freight"
+          ],
+          "cols": [
+            "Invoice",
+            "Packing list",
+            "Bill of lading"
+          ],
+          "rows": [
+            {
+              "item": "Goods",
+              "v": [
+                "Cotton fabric rolls",
+                "Cotton fabric rolls",
+                "Cotton fabric rolls"
+              ]
+            },
+            {
+              "item": "Cartons",
+              "v": [
+                "240",
+                "240",
+                "230"
+              ],
+              "flag": 2,
+              "result": "Quantity differs"
+            },
+            {
+              "item": "Gross weight (kg)",
+              "v": [
+                "4,860",
+                "4,860",
+                "4,860"
+              ]
+            },
+            {
+              "item": "Consignee",
+              "v": [
+                "Harbour Trading Co",
+                "Harbour Trading Co",
+                "Harbour Trading Co"
+              ]
+            }
+          ],
+          "finding": {
+            "item": "Cartons",
+            "kind": "Quantity mismatch",
+            "text": "The invoice and the packing list show 240 cartons. The bill of lading lists 230, so 10 cartons are not accounted for. Review before the shipment is released."
+          },
+          "checks": [
+            {
+              "label": "Invoice totals against the packing list",
+              "value": "240 cartons, USD 52,300.00",
+              "ok": true
+            },
+            {
+              "label": "Quantities against the bill of lading",
+              "value": "230 of 240 cartons listed",
+              "ok": false
+            },
+            {
+              "label": "Invoice and customs figures",
+              "value": "Declared value USD 52,300.00 on both",
+              "ok": true
+            }
+          ]
+        },
+        "slug": "logistics-and-trade",
+        "path": "/industries/logistics-and-trade/",
+        "label": "Logistics and trade",
+        "kicker": "Industries",
+        "docs": "Invoices, packing lists, bills of lading and customs documents.",
+        "problem": "A shipment is split across invoices, packing lists, bills of lading and customs documents that have to line up.",
+        "checks": [
+          "Match invoice totals to packing lists.",
+          "Check quantities against the bill of lading.",
+          "Compare invoice and customs figures for review."
+        ],
+        "problem_h2": "The problem",
+        "checks_h2": "Example checks",
+        "how_h2": "How it works"
+      },
+      "manufacturing": {
+        "title": "Manufacturing | enterlabs",
+        "description": "enterlabs matches purchase orders, delivery notes, supplier invoices and quality certificates and flags differences for review.",
+        "h1": "Supplier invoices that match the order",
+        "lead": "enterlabs works with purchase orders, delivery notes, supplier invoices and quality certificates, so an invoice is paid when the documents agree.",
+        "how": [
+          {
+            "h": "Prepare the data",
+            "p": "enterlabs reads purchase orders, delivery notes, supplier invoices and quality certificates and turns them into structured data."
+          },
+          {
+            "h": "Check against agreed rules",
+            "p": "It matches invoice totals and quantities to the purchase order and the delivery note, and compares the invoice with the quality certificate."
+          },
+          {
+            "h": "Review and record",
+            "p": "A person reviews each flagged item and makes the final call. Every review is recorded."
+          }
+        ],
+        "screen_h2": "An example screen",
+        "screen_lead": "A supplier invoice matched to a purchase order and a delivery note. One quantity difference is flagged for review.",
+        "close_h2": "Tell us about the purchasing documents your team handles.",
+        "close_lead": "Start with one supplier invoice and see the checks on your own documents.",
+        "mock": {
+          "crumb": "Purchase to pay",
+          "crumb_active": "Invoice match",
+          "ref": "INV-20817",
+          "status": "Under review",
+          "meta": [
+            "Northwind Components",
+            "PO-30417",
+            "Delivery DN-5521"
+          ],
+          "cols": [
+            "Supplier invoice",
+            "Purchase order",
+            "Delivery note"
+          ],
+          "rows": [
+            {
+              "item": "Steel bracket A12 (qty)",
+              "v": [
+                "500",
+                "500",
+                "500"
+              ]
+            },
+            {
+              "item": "Hex bolt M8 (qty)",
+              "v": [
+                "1,200",
+                "1,200",
+                "1,000"
+              ],
+              "flag": 2,
+              "result": "Quantity differs"
+            },
+            {
+              "item": "Gasket set G4 (qty)",
+              "v": [
+                "250",
+                "250",
+                "250"
+              ]
+            }
+          ],
+          "finding": {
+            "item": "Hex bolt M8",
+            "kind": "Quantity mismatch",
+            "text": "The invoice bills 1,200 units and the purchase order allows 1,200, but the delivery note shows 1,000 received. 200 units are billed and not delivered. Review before payment."
+          },
+          "checks": [
+            {
+              "label": "Invoice total against purchase order",
+              "value": "USD 18,450.00 on both",
+              "ok": true
+            },
+            {
+              "label": "Delivery note against the order",
+              "value": "Hex bolt M8: 1,000 of 1,200 received",
+              "ok": false
+            },
+            {
+              "label": "Invoice against quality certificate",
+              "value": "Batch QC-9042 on both",
+              "ok": true
+            }
+          ]
+        },
+        "slug": "manufacturing",
+        "path": "/industries/manufacturing/",
+        "label": "Manufacturing",
+        "kicker": "Industries",
+        "docs": "Purchase orders, delivery notes, supplier invoices and quality certificates.",
+        "problem": "A supplier invoice should be paid only when it agrees with the purchase order, the delivery note and the quality certificate.",
+        "checks": [
+          "Match invoice totals to purchase orders.",
+          "Check delivery notes against the order.",
+          "Compare supplier invoices with quality certificates for review."
+        ],
+        "problem_h2": "The problem",
+        "checks_h2": "Example checks",
+        "how_h2": "How it works"
+      }
+    }
+  },
+  "confirmations": [
+    "Written form is lowercase 'enterlabs' everywhere, including the start of sentences, and never 'enterlabs AI' or 'Enterlabs AI'. Confirm this is the form you want in body copy, titles and meta, not only in the logo.",
+    "Contact email set to sales@enterlabs.ai (Lisa, 22 Nov 2026). Confirm the mailbox is live before launch.",
+    "Company lists both legal entities: Confluidity Pte. Ltd. (Singapore) and PT Codemasters Nusantara Innovation (Jakarta), with registered offices and registration numbers from the public legal pages. Confirm you want the Indonesian entity and addresses on this site.",
+    "The ISO/IEC 27001:2022 entry states the certificate number, INTERCERT, dates and Confluidity as the certified entity. The official scope text is narrower (cloud-based medical insurance claims-processing SaaS for insurers and TPAs, with PT CNI's Jakarta site in the annexure). That full scope sentence is not on the page. Confirm whether to publish it.",
+    "Trust mentions managed hosting in Jakarta and disaster recovery in Singapore, and that not all processing stays in one country. It does not list sub-processors (AWS, Azure, Google Cloud, Sprinto, Brevo). Confirm how much location and vendor detail to publish.",
+    "Indonesia's UU PDP is a published compliance fact on the current claims site, but it is not on this draft so the trust page stays international. Confirm whether to add it.",
+    "The industries list (22 Nov 2026, Lisa) is Insurance (health insurance claims is the live, in production case), Healthcare providers, Banking and lending, Logistics and trade, and Manufacturing. General insurance, life insurance, TPAs, government and HR are not separate industry items. Only the insurance story cites published customers.",
+    "Deep SAGE and NUS are not mentioned. Confirm they should stay off the site.",
+    "Company copy follows your narrative (work too hard for too little; automate the predictable; people on the unpredictable). It does not use the claims-site purpose line 'We help more people afford healthcare by reducing the cost of insurance.' Confirm if you want that line, or any other company purpose, added.",
+    "The official logo is the trimmed transparent mark (and a white version on dark grounds), plus a potrace SVG. Confirm the SVG is close enough, or if we should use only the PNG."
+  ]
+}

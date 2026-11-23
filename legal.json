@@ -1,0 +1,989 @@
+{
+  "hub": {
+    "path": "/legal/",
+    "title": "Legal | enterlabs",
+    "description": "Website terms, privacy, cookies, data processing, security and company information for enterlabs.",
+    "kicker": "enterlabs",
+    "h1": "Legal",
+    "lead": "Understand how we provide our services, handle data and protect the work you entrust to us.",
+    "note": "Platform services are governed by your signed agreement. The documents below explain website use, data practices and platform responsibilities.",
+    "groups": [
+      {
+        "h": "Website and privacy",
+        "items": [
+          {
+            "href": "/legal/website-terms/",
+            "h": "Website Terms of Use",
+            "p": "Using this website, its content and enquiry tools."
+          },
+          {
+            "href": "/legal/privacy/",
+            "h": "Privacy Policy",
+            "p": "How we handle website and business-contact information."
+          },
+          {
+            "href": "/legal/cookies/",
+            "h": "Cookie Policy",
+            "p": "Browser storage and how this website is delivered."
+          }
+        ]
+      },
+      {
+        "h": "Client data and service providers",
+        "items": [
+          {
+            "href": "/legal/data-processing/",
+            "h": "Data Processing Agreement",
+            "p": "How client agreements govern processing; request your DPA."
+          },
+          {
+            "href": "/legal/subprocessors/",
+            "h": "Subprocessor List",
+            "p": "Platform providers, their roles and processing locations."
+          }
+        ]
+      },
+      {
+        "h": "Platform safeguards",
+        "items": [
+          {
+            "href": "/legal/security/",
+            "h": "Security Overview",
+            "p": "Certification, technical controls and security documentation."
+          },
+          {
+            "href": "/legal/responsible-ai/",
+            "h": "Responsible AI Policy",
+            "p": "Human review, data use and AI governance."
+          },
+          {
+            "href": "/legal/acceptable-use/",
+            "h": "Acceptable Use Policy",
+            "p": "Responsibilities for authorised platform users."
+          }
+        ]
+      },
+      {
+        "h": "Company information",
+        "items": [
+          {
+            "href": "/legal/entities/",
+            "h": "Legal Entities and Contacts",
+            "p": "Our Singapore and Indonesia companies and notice addresses."
+          }
+        ]
+      }
+    ],
+    "help_h": "Need a document or an answer?",
+    "help": "Request supporting security documents through our [[Trust page|/trust/]]. Access requires approval and a signed NDA. Write to [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+  },
+  "docs": [
+    {
+      "slug": "website-terms",
+      "path": "/legal/website-terms/",
+      "title": "Website Terms of Use | enterlabs",
+      "description": "Terms that govern use of the enterlabs website.",
+      "h1": "Website Terms of Use",
+      "date": "Effective date: 6 September 2026",
+      "sections": [
+        {
+          "id": "1-who-we-are",
+          "h": "1. Who we are",
+          "blocks": [
+            {
+              "p": "The enterlabs website and any enterlabs review website linking to these terms (the \"Site\") is operated by Confluidity Pte. Ltd., a company incorporated in Singapore (UEN 202500345R) with its registered office at 68 Circular Road #02-01, Singapore 049422 (\"Confluidity\", \"we\", \"us\"). Implementation and support services in Indonesia are delivered by our subsidiary PT Codemasters Nusantara Innovation."
+            }
+          ]
+        },
+        {
+          "id": "2-scope",
+          "h": "2. Scope",
+          "blocks": [
+            {
+              "p": "These terms govern your use of the Site. They do not govern use of the enterlabs platform. Access to the Platform is available only under a written agreement between Confluidity and a Client, and that agreement, together with the applicable data processing and acceptable use terms, governs Platform use."
+            }
+          ]
+        },
+        {
+          "id": "3-use-of-the-site",
+          "h": "3. Use of the Site",
+          "blocks": [
+            {
+              "p": "You may browse the Site and use its content for your own information and for evaluating our services. You may not: copy, reproduce or redistribute Site content for commercial purposes without our written consent; use automated tools to scrape, crawl or extract data from the Site beyond what search engines do in the ordinary course; attempt to gain unauthorised access to any part of the Site or its infrastructure; introduce malicious code; or use the Site in a way that breaches applicable law."
+            }
+          ]
+        },
+        {
+          "id": "4-demo-and-contact-requests",
+          "h": "4. Demo and contact requests",
+          "blocks": [
+            {
+              "p": "When you contact us, you confirm that the information you provide is accurate and that you are authorised to provide it on behalf of your organisation. The enquiry form on this Site is submitted through the website's hosting provider. If you contact us by form or email, we use the information as described in our [[Privacy Policy|/legal/privacy/]]. Contacting us does not create a contract for services."
+            }
+          ]
+        },
+        {
+          "id": "5-intellectual-property",
+          "h": "5. Intellectual property",
+          "blocks": [
+            {
+              "p": "The Site and its content, including text, graphics, logos, design and software, are owned by or licensed to Confluidity. The names Confluidity and enterlabs and the associated logos are trade names and trade marks of Confluidity. Nothing on the Site grants you a licence to use them. Third-party names and logos remain the property of their respective owners. Their appearance does not grant a licence to use them or imply an endorsement beyond the relationship described."
+            }
+          ]
+        },
+        {
+          "id": "6-information-on-the-site",
+          "h": "6. Information on the Site",
+          "blocks": [
+            {
+              "p": "Content on the Site is provided for general information. It is not legal, medical, actuarial or professional advice. Some product visuals are illustrative interface concepts rather than screenshots of a deployed configuration. Product availability depends on the agreed scope. Any performance figures or case studies relate to their stated context and do not guarantee results in other environments. Contractual commitments are made only in signed agreements."
+            }
+          ]
+        },
+        {
+          "id": "7-third-party-links",
+          "h": "7. Third-party links",
+          "blocks": [
+            {
+              "p": "The Site may link to third-party websites. We do not control those sites and are not responsible for their content or privacy practices."
+            }
+          ]
+        },
+        {
+          "id": "8-disclaimer-and-limitation-of-liability",
+          "h": "8. Disclaimer and limitation of liability",
+          "blocks": [
+            {
+              "p": "The Site is provided \"as is\". To the fullest extent permitted by law, we exclude all warranties regarding the Site, including availability, accuracy and fitness for a particular purpose. We are not liable for any indirect, consequential or special loss arising from use of the Site. Nothing in these terms excludes liability that cannot be excluded under applicable law."
+            }
+          ]
+        },
+        {
+          "id": "9-changes",
+          "h": "9. Changes",
+          "blocks": [
+            {
+              "p": "We may update these terms at any time by posting the revised version on the Site with a new effective date. Continued use of the Site after a change constitutes acceptance."
+            }
+          ]
+        },
+        {
+          "id": "10-governing-law",
+          "h": "10. Governing law",
+          "blocks": [
+            {
+              "p": "These terms are governed by the laws of Singapore. The courts of Singapore have exclusive jurisdiction over any dispute arising from use of the Site."
+            }
+          ]
+        },
+        {
+          "id": "11-contact",
+          "h": "11. Contact",
+          "blocks": [
+            {
+              "p": "[[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "privacy",
+      "path": "/legal/privacy/",
+      "title": "Privacy Policy | enterlabs",
+      "description": "How Confluidity Pte. Ltd. handles website and business-contact personal data.",
+      "h1": "Privacy Policy",
+      "date": "Effective date: 6 September 2026",
+      "sections": [
+        {
+          "id": "1-about-this-policy",
+          "h": "1. About this policy",
+          "blocks": [
+            {
+              "p": "This policy explains how Confluidity Pte. Ltd. collects, uses and shares personal data when you visit our website or an enterlabs review website linking to this policy, request a demo, contact us or interact with us as a business contact."
+            },
+            {
+              "p": "We handle personal data in accordance with applicable data protection law, including Singapore's Personal Data Protection Act 2012 and Indonesia's Law No. 27 of 2022 on Personal Data Protection, where applicable."
+            }
+          ]
+        },
+        {
+          "id": "2-who-is-responsible",
+          "h": "2. Who is responsible",
+          "blocks": [
+            {
+              "p": "Confluidity Pte. Ltd. (UEN 202500345R), 68 Circular Road #02-01, Singapore 049422, is responsible for the personal data we collect through the website and our business relationships. PT Codemasters Nusantara Innovation supports sales, implementation and client services in Indonesia."
+            },
+            {
+              "p": "Our Data Protection Officer can be contacted at [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+            }
+          ]
+        },
+        {
+          "id": "3-information-we-collect",
+          "h": "3. Information we collect",
+          "blocks": [
+            {
+              "p": "Enquiries and demo requests: the contact details, organisation details and message you submit."
+            },
+            {
+              "p": "Business relationships: business contact information, correspondence, meeting notes and contract records."
+            },
+            {
+              "p": "Website use: technical information such as IP address, requested pages, browser information and server events generated when you access the site."
+            },
+            {
+              "p": "The enquiry form on this website is submitted through the website's hosting provider. You can also contact us using the email links provided. Information you choose to send may be handled through Google Workspace and our CRM. Please do not send confidential client documents or personal records through public enquiry channels."
+            },
+            {
+              "p": "We do not knowingly collect personal data from children through the public website."
+            }
+          ]
+        },
+        {
+          "id": "4-how-we-use-information",
+          "h": "4. How we use information",
+          "blocks": [
+            {
+              "p": "We use personal data to respond to enquiries, arrange demonstrations, manage client and partner relationships, operate and secure the website, communicate about our services, and meet applicable legal obligations."
+            },
+            {
+              "p": "Depending on the activity and applicable law, we rely on consent, steps taken at your request before a contract, contractual necessity, legitimate interests or another applicable legal basis or exception. You may ask us to stop sending marketing communications at any time."
+            },
+            {
+              "p": "We do not sell personal data or use website enquiry data to train machine-learning models."
+            }
+          ]
+        },
+        {
+          "id": "5-service-providers-and-other-recipients",
+          "h": "5. Service providers and other recipients",
+          "blocks": [
+            {
+              "p": "We use Google Workspace for business email, documents and correspondence handling, and monday.com for CRM. Website hosting and related infrastructure providers process technical request information needed to deliver and secure the website, and process enquiry-form submissions. Typography on this website is served from the site's own servers. This public website does not currently use Google Analytics or optional analytics cookies. Our [[Cookie Policy|/legal/cookies/]] describes how the public website is delivered."
+            },
+            {
+              "p": "We may share relevant information with PT Codemasters Nusantara Innovation, professional advisers and auditors under confidentiality obligations, authorities where legally required, or a successor as part of a corporate transaction subject to appropriate protections."
+            },
+            {
+              "p": "Providers involved in delivering the platform are described in our [[Subprocessor List|/legal/subprocessors/]]."
+            }
+          ]
+        },
+        {
+          "id": "6-international-processing",
+          "h": "6. International processing",
+          "blocks": [
+            {
+              "p": "We operate in Singapore and Indonesia and use international service providers. Personal data may be processed outside your country. Applicable processing locations and transfer arrangements depend on the service and deployment. We apply contractual and other safeguards required by applicable data protection law. Contact us for information relevant to your relationship with us."
+            }
+          ]
+        },
+        {
+          "id": "7-retention",
+          "h": "7. Retention",
+          "blocks": [
+            {
+              "p": "We retain personal data for the purposes described in this policy and for applicable legal, accounting and record-keeping requirements. Retention takes account of our relationship with you, the purpose of the records and any applicable legal hold. When retention is no longer needed, data is deleted or otherwise disposed of securely."
+            },
+            {
+              "p": "Platform data retention and return or deletion are governed separately by the applicable client agreement and processing instructions."
+            }
+          ]
+        },
+        {
+          "id": "8-personal-data-in-enterlabs",
+          "h": "8. Personal data in enterlabs",
+          "blocks": [
+            {
+              "p": "The Platform supports Clients in reviewing documents. Those documents may contain identity, policy, treatment, health or other personal information. For platform services, the Client determines the purpose of processing and Confluidity processes data on its instructions."
+            },
+            {
+              "p": "The applicable client agreement governs this processing and any separately authorised use. This website policy does not replace that agreement or grant permission to use client data for additional purposes. See [[Data Processing Agreement|/legal/data-processing/]] and [[Responsible AI Policy|/legal/responsible-ai/]]."
+            },
+            {
+              "p": "If you are an individual seeking access, correction or another action relating to your personal data in a Client's files, contact the organisation that holds your relationship with that Client. We support the responsible Client in handling requests."
+            }
+          ]
+        },
+        {
+          "id": "9-security",
+          "h": "9. Security",
+          "blocks": [
+            {
+              "p": "Our information security management system is certified to ISO/IEC 27001:2022. We use access controls, environment segregation, encryption measures and logging to protect information. See our [[Security Overview|/legal/security/]]. Supporting documentation is available through the [[Trust page|/trust/]], subject to access approval and a signed NDA."
+            }
+          ]
+        },
+        {
+          "id": "10-your-choices-and-rights",
+          "h": "10. Your choices and rights",
+          "blocks": [
+            {
+              "p": "Depending on applicable law, you may request access or correction, withdraw consent, or request deletion, restriction, objection or portability where those rights apply. Contact [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]. We may need to verify your identity and will respond within applicable legal timeframes. You may also raise a concern with the relevant data protection authority."
+            }
+          ]
+        },
+        {
+          "id": "11-requests-from-authorities",
+          "h": "11. Requests from authorities",
+          "blocks": [
+            {
+              "p": "We assess requests from public authorities for validity and scope before disclosing personal data where legally required. For Client data, we notify the Client where legally permitted and handle the request under the applicable agreement and law."
+            }
+          ]
+        },
+        {
+          "id": "12-cookies-and-external-services",
+          "h": "12. Cookies and external services",
+          "blocks": [
+            {
+              "p": "See our [[Cookie Policy|/legal/cookies/]] for the public website, forms and related technologies."
+            }
+          ]
+        },
+        {
+          "id": "13-changes-and-contact",
+          "h": "13. Changes and contact",
+          "blocks": [
+            {
+              "p": "We may update this policy and will show the effective date above. Material changes will be communicated through the website or another appropriate channel."
+            },
+            {
+              "p": "[[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            },
+            {
+              "p": "Confluidity Pte. Ltd."
+            },
+            {
+              "p": "68 Circular Road #02-01, Singapore 049422"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cookies",
+      "path": "/legal/cookies/",
+      "title": "Cookie Policy | enterlabs",
+      "description": "How the enterlabs public website uses browser storage and is delivered.",
+      "h1": "Cookie Policy",
+      "date": "Effective date: 6 September 2026",
+      "sections": [
+        {
+          "id": "1-scope",
+          "h": "1. Scope",
+          "blocks": [
+            {
+              "p": "This policy covers cookies and similar technologies on the enterlabs website and review websites linking to this policy. The authenticated platform is a separate service with its own browser-storage requirements."
+            }
+          ]
+        },
+        {
+          "id": "2-the-public-website",
+          "h": "2. The public website",
+          "blocks": [
+            {
+              "p": "This public website does not currently set analytics cookies and does not load an analytics collector or tracking pixel. Typography is served from the site's own servers. Server logs and the website's hosting provider may still contain technical information about your visit, as described in our [[Privacy Policy|/legal/privacy/]]."
+            }
+          ]
+        },
+        {
+          "id": "3-external-services",
+          "h": "3. External services",
+          "blocks": [
+            {
+              "p": "The enquiry form on this website is submitted through the website's hosting provider. Email links open your chosen email application."
+            },
+            {
+              "p": "Cookies or similar technologies used by external services you choose to visit are subject to the relevant provider's notices and your browser settings. This policy does not represent external services as cookie-free."
+            }
+          ]
+        },
+        {
+          "id": "4-your-controls",
+          "h": "4. Your controls",
+          "blocks": [
+            {
+              "p": "You can review, block or delete cookies using your browser settings. Restrictions may affect hosting or external services you choose to visit."
+            }
+          ]
+        },
+        {
+          "id": "5-the-authenticated-platform",
+          "h": "5. The authenticated platform",
+          "blocks": [
+            {
+              "p": "The Platform uses browser storage for authentication, preferences and workflow state. Platform use is governed by the applicable client agreement; the statement about the public website above does not apply to the authenticated Platform."
+            }
+          ]
+        },
+        {
+          "id": "6-contact",
+          "h": "6. Contact",
+          "blocks": [
+            {
+              "p": "[[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "data-processing",
+      "path": "/legal/data-processing/",
+      "title": "Data Processing Agreement | enterlabs",
+      "description": "Overview of how client agreements govern processing; request your DPA.",
+      "h1": "Data Processing Agreement",
+      "date": "Last updated: 6 September 2026",
+      "sections": [
+        {
+          "id": "data-processing-under-your-agreement",
+          "h": "Data processing under your agreement",
+          "blocks": [
+            {
+              "p": "enterlabs processes documents under a written agreement with each Client. The applicable Data Processing Agreement sets out the parties' roles, processing instructions, security measures, subprocessors, transfer arrangements and obligations for handling personal data."
+            },
+            {
+              "p": "This page is an overview. It does not replace a signed DPA, amend its terms or create a new processing authorisation."
+            }
+          ]
+        },
+        {
+          "id": "roles-and-processing",
+          "h": "Roles and processing",
+          "blocks": [
+            {
+              "p": "For platform services, Confluidity acts on the Client's documented instructions. The applicable agreement records the parties' data-protection roles, including whether the Client acts as a controller or on behalf of another organisation. Processing may include document handling, extraction, validation, redaction, analysis and presentation of results for human review."
+            },
+            {
+              "p": "Documents may contain personal and other sensitive information, including identity, policy, treatment and health information where those appear in the Client's files, and account or activity information about Authorised Users. Removing direct identifiers does not necessarily make data anonymous."
+            },
+            {
+              "p": "Any additional processing purpose, including benchmarking or model development, must be addressed in the applicable agreement with the corresponding data-protection roles and safeguards. This overview does not authorise that processing."
+            }
+          ]
+        },
+        {
+          "id": "deployment-and-service-providers",
+          "h": "Deployment and service providers",
+          "blocks": [
+            {
+              "p": "Managed hosting uses AWS Jakarta, with disaster-recovery resources in Singapore. Hybrid deployments keep designated processing within the Client's environment. External services and transfer arrangements are addressed in the applicable agreement and [[Subprocessor List|/legal/subprocessors/]]."
+            }
+          ]
+        },
+        {
+          "id": "security-and-assistance",
+          "h": "Security and assistance",
+          "blocks": [
+            {
+              "p": "Our ISO/IEC 27001:2022 information security management system supports access management, environment segregation, security monitoring and incident handling. We assist Clients with data-subject requests and other processing-related obligations under their agreements."
+            }
+          ]
+        },
+        {
+          "id": "incidents",
+          "h": "Incidents",
+          "blocks": [
+            {
+              "p": "We notify affected Clients without undue delay in accordance with applicable law and their agreements, and provide information and assistance as the investigation develops. Specific notification deadlines in a Client's agreement continue to apply."
+            }
+          ]
+        },
+        {
+          "id": "return-and-deletion",
+          "h": "Return and deletion",
+          "blocks": [
+            {
+              "p": "Return and deletion follow the Client's instructions, the applicable agreement and relevant retention requirements. These arrangements cover primary records, temporary files, logs and backup copies, with any required legal retention handled separately. Written confirmation of return or deletion is provided as required by the applicable agreement."
+            },
+            {
+              "p": "Client-specific deadlines and any separately agreed treatment of model parameters remain governed by the signed agreement. No universal deletion deadline is introduced by this overview."
+            }
+          ]
+        },
+        {
+          "id": "obtain-the-applicable-dpa",
+          "h": "Obtain the applicable DPA",
+          "blocks": [
+            {
+              "p": "Contact [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]] to request the DPA applicable to your engagement. Supporting security documentation is available through our [[Trust page|/trust/]], subject to an access request and signed NDA."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "subprocessors",
+      "path": "/legal/subprocessors/",
+      "title": "Subprocessor List | enterlabs",
+      "description": "Platform providers, their roles and processing locations.",
+      "h1": "Subprocessor List",
+      "date": "Last updated: 6 September 2026",
+      "sections": [
+        {
+          "id": "providers-supporting-the-platform",
+          "h": "Providers supporting the Platform",
+          "blocks": [
+            {
+              "p": "The providers below support delivery of enterlabs. Their involvement depends on the deployment and features used. The applicable Client agreement governs subprocessor authorisation, changes and international transfers."
+            },
+            {
+              "table": {
+                "headers": [
+                  "Provider",
+                  "Service",
+                  "Relevant data"
+                ],
+                "rows": [
+                  [
+                    "PT Codemasters Nusantara Innovation",
+                    "Indonesian implementation, configuration and support",
+                    "Client data accessed as needed to provide these services"
+                  ],
+                  [
+                    "Amazon Web Services",
+                    "Application hosting, databases, object storage, backups and disaster recovery",
+                    "Platform data stored or processed in the managed deployment"
+                  ],
+                  [
+                    "Microsoft Azure",
+                    "Azure OpenAI inference and Azure AI Document Intelligence",
+                    "Document-processing inputs and outputs used by these services"
+                  ],
+                  [
+                    "Google Cloud Platform",
+                    "Embedding processing and Pub/Sub messaging",
+                    "Data submitted through the relevant integrations"
+                  ],
+                  [
+                    "Sprinto",
+                    "Compliance management and breach-record storage",
+                    "Compliance evidence and incident records that may contain personal data"
+                  ],
+                  [
+                    "Brevo",
+                    "Account-email integration, where enabled",
+                    "Recipient email addresses and account messages, including OTP and reset information"
+                  ]
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": "processing-locations",
+          "h": "Processing locations",
+          "blocks": [
+            {
+              "p": "Managed application hosting and S3 storage are in AWS Jakarta. Disaster-recovery resources are in Singapore. Azure AI Document Intelligence is configured in Southeast Asia. Azure OpenAI's documented Global Standard deployment may process inference requests across Microsoft's global infrastructure."
+            },
+            {
+              "p": "Other processing locations depend on the provider service and applicable configuration. This list does not promise that all processing remains in a single country. Deployment-specific information is available through [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+            }
+          ]
+        },
+        {
+          "id": "monitoring-components",
+          "h": "Monitoring components",
+          "blocks": [
+            {
+              "p": "SigNoz and OpenTelemetry support tracing through a collector hosted in Jakarta. Traces may include request identifiers, function arguments and exceptions. These are software components, and their use does not by itself mean their software vendors receive Client data. Uptime Kuma is used for self-hosted availability monitoring."
+            }
+          ]
+        },
+        {
+          "id": "website-and-business-services",
+          "h": "Website and business services",
+          "blocks": [
+            {
+              "p": "Website hosting and business-contact services, including Google Workspace and monday.com, are addressed in the [[Privacy Policy|/legal/privacy/]]. Google Cloud Artifact Registry is used in deployment pipelines and is not listed as a separate document-processing service."
+            }
+          ]
+        },
+        {
+          "id": "changes-and-questions",
+          "h": "Changes and questions",
+          "blocks": [
+            {
+              "p": "Subprocessor notifications and approvals follow the applicable Client agreement. To request information or receive relevant updates, email [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]] with the subject \"Subprocessor notifications\"."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "security",
+      "path": "/legal/security/",
+      "title": "Security Overview | enterlabs",
+      "description": "Certification, technical controls and security documentation.",
+      "h1": "Security Overview",
+      "date": "Last updated: 6 September 2026",
+      "sections": [
+        {
+          "id": "security-at-enterlabs",
+          "h": "Security at enterlabs",
+          "blocks": [
+            {
+              "p": "Documents and personal data require careful handling. We build security into platform development and operations, with controls that help Clients manage access, review activity and choose an appropriate deployment."
+            }
+          ]
+        },
+        {
+          "id": "iso-iec-27001-2022",
+          "h": "ISO/IEC 27001:2022",
+          "blocks": [
+            {
+              "p": "Confluidity Pte. Ltd.'s information security management system is certified by INTERCERT to ISO/IEC 27001:2022. The certificate annexure includes PT Codemasters Nusantara Innovation's Jakarta site."
+            },
+            {
+              "p": "The certified scope covers the development, deployment and operation of cloud-based medical insurance claims-processing SaaS for insurers and third-party administrators, including Software Engineering, AI/ML Operations, Security Operations, Business Development and Sales, Data Operations and Corporate Operations."
+            },
+            {
+              "p": "Certificate number: IC-IS-2608218"
+            },
+            {
+              "p": "Initial certification and issue date: 19 August 2026"
+            },
+            {
+              "p": "Current certificate validity: 19 August 2026 to 18 August 2027"
+            },
+            {
+              "p": "Recertification date: 18 August 2029"
+            }
+          ]
+        },
+        {
+          "id": "access-and-separation",
+          "h": "Access and separation",
+          "blocks": [
+            {
+              "p": "Role-based access limits what users can see and do. Tenant separation and distinct development, staging and production environments support the protection of Client data. Authentication, data-access and administrative events are logged to support investigation and review."
+            }
+          ]
+        },
+        {
+          "id": "data-handling",
+          "h": "Data handling",
+          "blocks": [
+            {
+              "p": "Encryption measures and redaction controls support the protection and minimisation of data. The Platform implements application-level AES-GCM encryption. Redacted or pseudonymised data remains protected as personal data where it can be linked to an individual."
+            },
+            {
+              "p": "Managed infrastructure is hosted in AWS Jakarta, with disaster-recovery resources in Singapore. Hybrid deployment options place designated document-processing components within the Client's environment. The applicable agreement records the deployment and processing arrangements."
+            }
+          ]
+        },
+        {
+          "id": "finding-and-addressing-weaknesses",
+          "h": "Finding and addressing weaknesses",
+          "blocks": [
+            {
+              "p": "Snyk static application security testing and software composition analysis are integrated into the deployment pipeline. Required scans must pass before deployment; failed scans block deployment."
+            },
+            {
+              "p": "Independent security testing results are shared with Clients under NDA as they become available."
+            }
+          ]
+        },
+        {
+          "id": "incident-response",
+          "h": "Incident response",
+          "blocks": [
+            {
+              "p": "We maintain a documented incident-response process. Affected Clients are notified without undue delay in accordance with applicable law and their agreements. Investigation, containment and follow-up are coordinated with the relevant Client."
+            }
+          ]
+        },
+        {
+          "id": "continuity",
+          "h": "Continuity",
+          "blocks": [
+            {
+              "p": "Daily database snapshots and documented business-continuity and disaster-recovery arrangements support recovery planning. Deployment-specific information is available during security review."
+            }
+          ]
+        },
+        {
+          "id": "people",
+          "h": "People",
+          "blocks": [
+            {
+              "p": "Personnel are subject to confidentiality obligations, security-awareness training and access controls appropriate to their responsibilities. Access is reviewed periodically and removed when no longer authorised."
+            }
+          ]
+        },
+        {
+          "id": "security-documentation-and-reporting",
+          "h": "Security documentation and reporting",
+          "blocks": [
+            {
+              "p": "Visit our [[Trust page|/trust/]] to request access to supporting security documentation. Documents require a signed NDA and are watermarked."
+            },
+            {
+              "p": "Report a suspected vulnerability or security concern to [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "responsible-ai",
+      "path": "/legal/responsible-ai/",
+      "title": "Responsible AI Policy | enterlabs",
+      "description": "Human review, data use and AI governance for the enterlabs platform.",
+      "h1": "Responsible AI Policy",
+      "date": "Effective date: 6 September 2026",
+      "sections": [
+        {
+          "id": "1-human-decisions-supported-by-ai",
+          "h": "1. Human decisions, supported by AI",
+          "blocks": [
+            {
+              "p": "enterlabs reads, structures and analyses documents to support human review. It extracts information, applies configured checks and highlights issues for attention. Final decisions remain with the Client's qualified staff."
+            },
+            {
+              "p": "Reviewers can inspect results and correct or adjust them. Confidence scores, explanations and low-confidence warnings support review where enabled by company and field configuration."
+            }
+          ]
+        },
+        {
+          "id": "2-data-minimisation",
+          "h": "2. Data minimisation",
+          "blocks": [
+            {
+              "p": "Redaction and de-identification controls reduce the personal information used in processing. Data that can still be linked to an individual remains personal data and is handled accordingly. The applicable Client agreement governs the permitted processing and deployment arrangements."
+            }
+          ]
+        },
+        {
+          "id": "3-client-specific-learning-and-other-agreed-uses",
+          "h": "3. Client-specific learning and other agreed uses",
+          "blocks": [
+            {
+              "p": "The Eligibility module uses non-sensitive client data containing no personally identifiable information for client-specific machine-learning training. Those training datasets and resulting client-specific models are used exclusively for that Client and are not shared or reused across Clients."
+            },
+            {
+              "p": "This describes the Eligibility module. Any separate model-development or benchmarking use is governed by the applicable Client agreement, including its permitted purposes, data-protection roles and safeguards. This policy does not grant an additional right to use Client data or make any optional contractual authorisation automatic."
+            },
+            {
+              "p": "User-facing corrections are separate from internal feedback functionality, which is restricted to super-admin users. A correction or feedback submission does not by itself imply automatic model retraining."
+            }
+          ]
+        },
+        {
+          "id": "4-traceability-and-evaluation",
+          "h": "4. Traceability and evaluation",
+          "blocks": [
+            {
+              "p": "Source information and audit records support review of extracted data and system activity. We evaluate performance on relevant document types and test changes to models and prompts before release. AI outputs can contain errors and require appropriate human review."
+            }
+          ]
+        },
+        {
+          "id": "5-fairness-and-appropriate-use",
+          "h": "5. Fairness and appropriate use",
+          "blocks": [
+            {
+              "p": "Results should be assessed against the relevant rules, source documents and supporting evidence. Clients remain responsible for training reviewers, handling exceptions and ensuring that adverse decisions receive qualified human review. Material concerns about AI behaviour can be raised with us for investigation."
+            }
+          ]
+        },
+        {
+          "id": "6-providers-and-security",
+          "h": "6. Providers and security",
+          "blocks": [
+            {
+              "p": "Azure OpenAI supports language-model inference; Azure AI Document Intelligence supports document processing; Google Cloud integrations support embeddings and messaging. Their use is subject to the applicable processing arrangements. See the [[Subprocessor List|/legal/subprocessors/]] and [[Security Overview|/legal/security/]]."
+            }
+          ]
+        },
+        {
+          "id": "7-governance",
+          "h": "7. Governance",
+          "blocks": [
+            {
+              "p": "The Chief Technology Officer owns this policy. It is reviewed at least annually and when materially new AI capabilities are introduced. AI-related risks are managed within our information security management system."
+            },
+            {
+              "p": "Contact [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]] with questions or concerns."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "acceptable-use",
+      "path": "/legal/acceptable-use/",
+      "title": "Acceptable Use Policy | enterlabs",
+      "description": "Responsibilities for authorised users of the enterlabs platform.",
+      "h1": "Acceptable Use Policy",
+      "date": "Effective date: 6 September 2026",
+      "sections": [
+        {
+          "id": "intro",
+          "h": "",
+          "blocks": [
+            {
+              "p": "This Acceptable Use Policy applies to every Client and every Authorised User of the enterlabs platform. It applies as incorporated into the Agreement between the Client and Confluidity; the signed Agreement prevails in the event of a conflict. Capitalised terms have the meaning given in the Agreement."
+            }
+          ]
+        },
+        {
+          "id": "1-permitted-use",
+          "h": "1. Permitted use",
+          "blocks": [
+            {
+              "p": "The Platform may be used only by the Client's Authorised Users, for the Client's internal business purposes set out in the Agreement, in accordance with applicable law and this policy."
+            }
+          ]
+        },
+        {
+          "id": "2-accounts-and-access",
+          "h": "2. Accounts and access",
+          "blocks": [
+            {
+              "p": "Each Authorised User must have an individual account. Accounts and credentials may not be shared. The Client is responsible for keeping its list of Authorised Users current, removing access when a person leaves or changes role, and for all activity under its accounts. Users must comply with the authentication and access requirements configured for their accounts."
+            }
+          ]
+        },
+        {
+          "id": "3-data-you-upload",
+          "h": "3. Data you upload",
+          "blocks": [
+            {
+              "p": "The Client warrants that it has the legal right, including any required notices to or consent from data subjects, to upload data to the Platform and to have Confluidity process it under the applicable data processing agreement. The Client will not upload data that is unrelated to the agreed purpose, or that it is prohibited from disclosing."
+            }
+          ]
+        },
+        {
+          "id": "4-prohibited-conduct",
+          "h": "4. Prohibited conduct",
+          "blocks": [
+            {
+              "p": "You may not:"
+            },
+            {
+              "ul": [
+                "access or attempt to access another client's data or environment;",
+                "circumvent, disable or probe security or authentication controls, or conduct penetration testing without Confluidity's prior written agreement;",
+                "copy, modify, reverse engineer, decompile or create derivative works of the Platform, or attempt to extract its models, prompts or training data;",
+                "use the Platform to build a competing product or to benchmark for publication without consent;",
+                "introduce malware or run code on the Platform other than through supported integrations;",
+                "use automated means to extract data at volumes or in ways not contemplated by the Agreement;",
+                "use the Platform in breach of applicable law, including data protection, insurance and anti-discrimination law;",
+                "use outputs of the Platform as the sole basis for an adverse decision affecting an individual without review by a qualified human;",
+                "resell, sublicense or provide access to third parties other than the Client's contractors bound by equivalent obligations."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "5-integrations-and-apis",
+          "h": "5. Integrations and APIs",
+          "blocks": [
+            {
+              "p": "API credentials are confidential and must be stored securely. Integrations must respect documented rate limits and use only documented endpoints. The Client is responsible for the security of systems it connects to the Platform."
+            }
+          ]
+        },
+        {
+          "id": "6-monitoring-and-enforcement",
+          "h": "6. Monitoring and enforcement",
+          "blocks": [
+            {
+              "p": "Confluidity logs Platform activity for security, support and audit purposes, under the applicable data processing agreement. If we detect or are notified of a breach of this policy, we may suspend the affected accounts or integrations to protect the Platform or other clients, and will notify the Client promptly. Repeated or serious breaches are a material breach of the Agreement."
+            }
+          ]
+        },
+        {
+          "id": "7-reporting",
+          "h": "7. Reporting",
+          "blocks": [
+            {
+              "p": "Report suspected misuse or security concerns to [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+            }
+          ]
+        },
+        {
+          "id": "8-changes",
+          "h": "8. Changes",
+          "blocks": [
+            {
+              "p": "Updates and their effective dates are governed by the applicable Agreement. We will communicate changes as required by that Agreement and applicable law."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "entities",
+      "path": "/legal/entities/",
+      "title": "Legal Entities and Contacts | enterlabs",
+      "description": "Singapore and Indonesia companies, registration details and notice addresses.",
+      "h1": "Legal Entities and Contacts",
+      "date": "Last updated: 6 September 2026",
+      "sections": [
+        {
+          "id": "confluidity-pte-ltd",
+          "h": "Confluidity Pte. Ltd.",
+          "blocks": [
+            {
+              "p": "Group holding company and contracting entity for the enterlabs platform."
+            },
+            {
+              "p": "Incorporated in Singapore on 6 January 2025."
+            },
+            {
+              "p": "Unique Entity Number (UEN): 202500345R"
+            },
+            {
+              "p": "Registered office: 68 Circular Road #02-01, Singapore 049422"
+            }
+          ]
+        },
+        {
+          "id": "pt-codemasters-nusantara-innovation-pt-cni",
+          "h": "PT Codemasters Nusantara Innovation (PT CNI)",
+          "blocks": [
+            {
+              "p": "Indonesian operating subsidiary of Confluidity Pte. Ltd., delivering local implementation, support and client services. A foreign-investment company (PT PMA)."
+            },
+            {
+              "p": "Nomor Induk Berusaha (NIB): 1304230085238"
+            },
+            {
+              "p": "Registered office: Jl. Yusuf Adiwinata No. 32/34 3, RT.2/RW.1, Gondangdia, Kec. Menteng, Kota Jakarta Pusat, Daerah Khusus Ibukota Jakarta 10350"
+            }
+          ]
+        },
+        {
+          "id": "contact",
+          "h": "Contact",
+          "blocks": [
+            {
+              "p": "General enquiries: [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            },
+            {
+              "p": "Sales and demonstrations: [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            },
+            {
+              "p": "Privacy, data protection and security: [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]"
+            }
+          ]
+        },
+        {
+          "id": "notices",
+          "h": "Notices",
+          "blocks": [
+            {
+              "p": "Legal notices to Confluidity Pte. Ltd. should be sent to the Singapore registered office above, with a copy to [[sales@enterlabs.ai|mailto:sales@enterlabs.ai]]."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "contact_email": "sales@enterlabs.ai"
+}
