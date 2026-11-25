@@ -10,10 +10,10 @@ Shared chrome
 -------------
 
 Wordmark: official enterlabs logo (Enter-key icon + serif 'enterlabs'). Alt text: enterlabs.
-Navigation: Platform | Industries (dropdown) | Customers | About us (dropdown) | Book a demo
+Navigation: Platform | For enterprises | For growing businesses | Industries (dropdown) | Customers | About us (dropdown) | Book a demo
 Industries dropdown: Insurance (Claims, policies and underwriting files.); Healthcare providers (Medical records, bills and claim submissions.); Banking and lending (Loan applications, bank statements and KYC documents.); Logistics and trade (Invoices, packing lists, bills of lading and customs documents.); Manufacturing (Purchase orders, delivery notes, supplier invoices and quality certificates.); All industries
 About us dropdown: Company (Who we are, where we are based and who backs us.); Trust (Certification, privacy practices, deployment and security diligence.); Legal (Terms, privacy, security and company information.)
-Footer Explore: Platform | Industries | Customers | Company | Trust
+Footer Explore: Platform | For enterprises | For growing businesses | Industries | Customers | Company | Trust
 Footer legal: Privacy | Website terms | Cookies | Legal
 Contact: sales@enterlabs.ai
 Footer offices:
@@ -29,16 +29,16 @@ Home
 ----
 
 Title: enterlabs
-Meta description: enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.
+Meta description: Applied AI for the work that matters. An AI assistant, document automation and workflow automation on one platform, on your own documents and data.
 
 Kicker
-Intelligent document processing
+The platform
 
 Headline
-Less manual work. More margin.
+Applied AI for the work that matters.
 
 Lead
-enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.
+An AI assistant, document automation and workflow automation, together on one platform. We put them to work on your own documents and data, so your team can spend more time on the work that matters.
 
 Document wall line 1
 Every industry runs on documents.
@@ -55,7 +55,7 @@ Representative clients
 Clients (greyscale wall, two rows)
 Mega Insurance; BirdMobil; BNI Life; Takaful Keluarga; Zurich; PT Medilink; BRI; Rumah Siap Kerja; Astra; MSL Motors; Caready; Auto2000
 
-Buttons: See how it works | Book a demo
+Buttons: See the platform | Book a demo
 
 Problem kicker
 The problem
@@ -155,6 +155,140 @@ Turn documents into confident decisions.
 
 Closing lead
 Any document, any industry. Let's talk about yours.
+
+Audience doors kicker / headline
+Who it is for / Two ways to work with enterlabs.
+
+For enterprises: Intelligent document processing at scale.
+Document automation and workflow automation for complex operations, with the security and proof enterprises need. Link: /enterprises/ (Explore for enterprises)
+
+For growing businesses: A monthly applied AI service.
+The same platform, set up on your own documents and data and run with you month to month. Link: /growing-businesses/ (Explore for growing businesses)
+
+Products kicker / headline
+One platform / Three products. One platform.
+
+Products lead
+Everything runs together on enterlabs, on your own documents and data.
+
+01 AI assistant
+Answers from your own knowledge, so recurring questions no longer pull people away from their work.
+
+02 Document automation
+Reads your documents and forms, structures the detail and flags what needs a person.
+
+03 Workflow automation
+Automates the repetitive steps in your processes, so work moves without being re-entered by hand.
+
+
+For enterprises  (/enterprises/)
+--------------------------------
+
+Title: For enterprises | enterlabs
+Meta description: Intelligent document processing and workflow automation at scale, with ISO 27001 certification and results from live programmes.
+
+Kicker
+For enterprises
+
+Headline
+Intelligent document processing and workflow automation, at scale.
+
+Lead
+enterlabs helps enterprise teams take on the document heavy work that slows operations: reading files, checking them against the rules you already trust, and moving work through the process, with people still responsible for the decision.
+
+Buttons: Book a demo | Trust and security
+
+Built for operations that run on documents.
+The same platform brings document automation and workflow automation together, so skilled teams spend less time on routine file work and more on the decisions that need them.
+
+01 Intelligent document processing
+Structure unstructured documents, check every detail and flag what needs a human, with a clear record of the review.
+
+02 Workflow automation at scale
+Move work through the process without losing the evidence, the rule, or the person responsible for the decision.
+
+03 People stay in control
+The platform prepares the record and surfaces what needs attention. Qualified reviewers remain responsible for the decision.
+
+Security that stands up to diligence.
+ISO/IEC 27001:2022 certified, with the privacy and deployment practices published in our trust center. Review the full picture with your IT and security teams. Link: Explore trust and security
+
+Security badges
+Reused from the Trust page, including ISO/IEC 27001:2022.
+
+Results from live programmes.
+Figures from January to September 2026, shared with client approval. Reuses the Mega Insurance and Takaful Keluarga with Medilink stories.
+
+Closing headline
+See the platform at work on your documents.
+
+Closing lead
+Book a walkthrough with the enterlabs team.
+
+
+For growing businesses  (/growing-businesses/)
+----------------------------------------------
+
+Title: For growing businesses | enterlabs
+Meta description: A monthly applied AI service on the enterlabs platform. An AI assistant, document automation and workflow automation, set up on your own documents and data. From USD 2,000 / month.
+
+Kicker
+For growing businesses
+
+Headline
+Applied AI, running with you month to month.
+
+Lead
+A monthly service on the enterlabs platform. We bring an AI assistant, document automation and workflow automation together, set them up on your own documents and data, and run them with you month to month.
+
+Buttons: Talk to us | Start with a workshop
+
+The platform, set up for how you work.
+This is a recurring service, not a software licence you have to stand up alone. We set it up on your own documents and data, without a custom engineering project, and stay with you as the work runs.
+
+01 AI assistant
+Set up on your own knowledge, so the team can get answers from the documents and policies you already have.
+
+02 Document automation
+Reads your documents and forms, so routine reading and checking no longer sit entirely with your people.
+
+03 Workflow automation
+Automates repetitive steps in your day to day processes, connected to the way you already work.
+
+A workshop, then setup, then a monthly rhythm.
+We start by finding where AI can make a meaningful difference, then we set the platform up and keep it running with you.
+
+01 Workshop
+Begin with a workshop to understand your operations and agree where AI fits first.
+
+02 Setup
+We set up the platform on your own documents and data, ready for your team to use.
+
+03 Monthly service
+The assistant, document automation and workflow automation run together, month to month, as we stay with you.
+
+A clear monthly engagement.
+One monthly fee for the service, with a defined starting term. The aim is straightforward: time returned to your team, a faster turnaround, and documents that are processed as part of everyday work.
+
+Plan card
+Premium. From USD 2,000 / month. 6 month minimum.
+
+  - A diagnosis of where AI can make a meaningful difference, and a check that your data is ready
+  - An AI assistant set up on your own knowledge
+  - Document automation that reads your documents and forms
+  - Workflow automation for repetitive steps in your processes
+  - Training for your team, and reporting on results as the service runs
+
+Plan note
+Start with a workshop if you want a first conversation about where AI fits.
+
+Plan CTA: Talk to us
+
+Closing headline
+Talk to us about a monthly engagement.
+
+Closing lead
+Write to sales@enterlabs.ai, or start with a workshop.
 
 
 Platform

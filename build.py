@@ -783,7 +783,36 @@ def build_home() -> str:
     </div>
   </div>
 </section>'''
+    doors = "".join(
+        f'<a class="door reveal" href="{esc(d["href"])}">'
+        f'<p class="kicker">{esc(d["kicker"])}</p>'
+        f'<h3>{esc(d["h"])}</h3>'
+        f'<p>{esc(d["p"])}</p>'
+        f'<span class="door-go">{esc(d["label"])}<span aria-hidden="true"> &rarr;</span></span>'
+        f"</a>"
+        for d in p["doors"]
+    )
+    products = "".join(
+        f'<article class="reveal"><div class="num">{esc(item["num"])}</div>'
+        f'<h3>{esc(item["h"])}</h3><p>{esc(item["p"])}</p></article>'
+        for item in p["products"]
+    )
     body = f'''{hero}
+<section class="wrap doors-sec" id="audiences" aria-label="{esc(p["doors_h2"])}">
+  <div class="reveal" style="max-width:720px">
+    <p class="kicker">{esc(p["doors_kicker"])}</p>
+    <h2>{esc(p["doors_h2"])}</h2>
+  </div>
+  <div class="doors">{doors}</div>
+</section>
+<section class="wrap" id="products">
+  <div class="reveal" style="max-width:740px">
+    <p class="kicker">{esc(p["products_kicker"])}</p>
+    <h2>{esc(p["products_h2"])}</h2>
+    <p class="muted">{esc(p["products_lead"])}</p>
+  </div>
+  <div class="card-grid">{products}</div>
+</section>
 {doc_wall(p)}
 {stats_strip(p["stats"])}
 {clients_wall()}
@@ -1106,13 +1135,9 @@ def trust_diligence_mock() -> str:
     )
 
 
-def build_trust() -> str:
-    p = PAGES["trust"]
-    h1 = esc(p["h1"])
-    if p.get("h1_line2"):
-        h1 += "<br>" + esc(p["h1_line2"])
+def frameworks_html(frameworks: list | None = None) -> str:
     badges = []
-    for f in p["frameworks"]:
+    for f in frameworks or PAGES["trust"]["frameworks"]:
         art = " framework-art" if f.get("art") else ""
         inner = (
             f'<img src="{esc(f["img"])}" alt="{esc(f["alt"])}" width="160" height="160" loading="lazy">'
@@ -1123,7 +1148,16 @@ def build_trust() -> str:
             badges.append(f'<a class="framework{art}" href="{esc(f["href"])}">{inner}</a>')
         else:
             badges.append(f'<div class="framework{art}">{inner}</div>')
-        
+    return "".join(badges)
+
+
+def build_trust() -> str:
+    p = PAGES["trust"]
+    h1 = esc(p["h1"])
+    if p.get("h1_line2"):
+        h1 += "<br>" + esc(p["h1_line2"])
+    badges = frameworks_html()
+
     deploy = "".join(
         f'<article><h3>{esc(x["h"])}</h3><p>{esc(x["p"])}</p></article>'
         for x in p["deploy_items"]
@@ -1165,7 +1199,7 @@ def build_trust() -> str:
     <h2>{esc(p["compliance_h2"])}</h2>
   </div>
   <div class="compliance-badges reveal" aria-label="Current certification and privacy practices">
-    {"".join(badges)}
+    {badges}
   </div>
   <p class="muted reveal compliance-note">{esc(p["compliance_lead"])}</p>
 </section>
@@ -1308,6 +1342,104 @@ def build_legal_doc(doc: dict) -> str:
 '''
     return layout(doc["title"], doc["description"], doc["path"], body)
 
+
+
+
+def build_enterprises() -> str:
+    p = PAGES["enterprises"]
+    offer = "".join(
+        f'<article class="reveal"><div class="num">{esc(item["num"])}</div>'
+        f'<h3>{esc(item["h"])}</h3><p>{esc(item["p"])}</p></article>'
+        for item in p["offer"]
+    )
+    hero = page_hero(p, actions(p["primary_cta"], p["secondary_cta"]))
+    body = f'''{hero}
+<section class="wrap" id="offer">
+  <div class="section-head reveal">
+    <p class="kicker">{esc(p["offer_kicker"])}</p>
+    <h2>{esc(p["offer_h2"])}</h2>
+    <p class="muted">{esc(p["offer_lead"])}</p>
+  </div>
+  <div class="card-grid">{offer}</div>
+</section>
+<section class="wrap trust-compliance" id="security">
+  <div class="section-head reveal">
+    <p class="kicker">{esc(p["trust_kicker"])}</p>
+    <h2>{esc(p["trust_h2"])}</h2>
+    <p class="muted">{esc(p["trust_lead"])}</p>
+  </div>
+  <div class="compliance-badges reveal" aria-label="Current certification and privacy practices">
+    {frameworks_html()}
+  </div>
+  <p class="note reveal"><a href="{esc(p["trust_link"]["href"])}">{esc(p["trust_link"]["label"])}</a></p>
+</section>
+<section class="wrap" id="proof">
+  <div class="section-head reveal">
+    <p class="kicker">{esc(p["proof_kicker"])}</p>
+    <h2>{esc(p["proof_h2"])}</h2>
+    <p class="muted">{esc(p["proof_lead"])}</p>
+  </div>
+  {cases_html()}
+</section>
+{closing(p["close_h2"], p["close_lead"], p["primary_cta"], {"label": SITE["email"], "href": "mailto:" + SITE["email"]})}
+'''
+    return layout(p["title"], p["description"], p["path"], body)
+
+
+def build_growing() -> str:
+    p = PAGES["growing"]
+    offer = "".join(
+        f'<article class="reveal"><div class="num">{esc(item["num"])}</div>'
+        f'<h3>{esc(item["h"])}</h3><p>{esc(item["p"])}</p></article>'
+        for item in p["offer"]
+    )
+    how = "".join(
+        f'<article class="reveal"><div class="num">{esc(item["num"])}</div>'
+        f'<h3>{esc(item["h"])}</h3><p>{esc(item["p"])}</p></article>'
+        for item in p["how"]
+    )
+    plan = p["plan"]
+    includes = "".join(f"<li>{esc(item)}</li>" for item in plan["includes"])
+    plan_card = f'''<aside class="plan-card reveal">
+  <p class="kicker">{esc(plan["name"])}</p>
+  <p class="plan-price">{esc(plan["price"])} <span>{esc(plan["period"])}</span></p>
+  <p class="plan-term">{esc(plan["term"])}</p>
+  <p class="plan-includes-label">{esc(plan["includes_label"])}</p>
+  <ul class="plan-includes">{includes}</ul>
+  <a class="btn btn-primary" href="{esc(plan["cta"]["href"])}">{esc(plan["cta"]["label"])}</a>
+  <p class="plan-note">{esc(plan["note"])}</p>
+</aside>'''
+    hero = page_hero(p, actions(p["primary_cta"], p["secondary_cta"]))
+    body = f'''{hero}
+<section class="wrap" id="offer">
+  <div class="section-head reveal">
+    <p class="kicker">{esc(p["offer_kicker"])}</p>
+    <h2>{esc(p["offer_h2"])}</h2>
+    <p class="muted">{esc(p["offer_lead"])}</p>
+  </div>
+  <div class="card-grid">{offer}</div>
+</section>
+<section class="wrap" id="how">
+  <div class="section-head reveal">
+    <p class="kicker">{esc(p["how_kicker"])}</p>
+    <h2>{esc(p["how_h2"])}</h2>
+    <p class="muted">{esc(p["how_lead"])}</p>
+  </div>
+  <div class="card-grid">{how}</div>
+</section>
+<section class="wrap plan-sec" id="plan">
+  <div class="plan-layout">
+    <div class="section-head reveal">
+      <p class="kicker">{esc(p["plan_kicker"])}</p>
+      <h2>{esc(p["plan_h2"])}</h2>
+      <p class="muted">{esc(p["plan_lead"])}</p>
+    </div>
+    {plan_card}
+  </div>
+</section>
+{closing(p["close_h2"], p["close_lead"], p["primary_cta"], p["secondary_cta"])}
+'''
+    return layout(p["title"], p["description"], p["path"], body)
 
 
 def build_company() -> str:
@@ -1554,6 +1686,49 @@ def write_content_md() -> None:
     )
     p("Closing headline", home["close_h2"])
     p("Closing lead", home["close_lead"])
+    p("Audience doors kicker / headline", home["doors_kicker"] + " / " + home["doors_h2"])
+    for d in home["doors"]:
+        p(d["kicker"] + ": " + d["h"], d["p"] + " Link: " + d["href"] + " (" + d["label"] + ")")
+    p("Products kicker / headline", home["products_kicker"] + " / " + home["products_h2"])
+    p("Products lead", home["products_lead"])
+    for item in home["products"]:
+        p(item["num"] + " " + item["h"], item["p"])
+
+    for key, heading in (("enterprises", "For enterprises"), ("growing", "For growing businesses")):
+        pg = PAGES[key]
+        h(heading + "  (" + pg["path"] + ")")
+        lines.append("Title: " + pg["title"])
+        lines.append("Meta description: " + pg["description"])
+        lines.append("")
+        p("Kicker", pg["kicker"])
+        p("Headline", pg["h1"])
+        p("Lead", pg["lead"])
+        lines.append("Buttons: " + pg["primary_cta"]["label"] + " | " + pg["secondary_cta"]["label"])
+        lines.append("")
+        p(pg["offer_h2"], pg["offer_lead"])
+        for item in pg["offer"]:
+            p(item["num"] + " " + item["h"], item["p"])
+        if pg.get("trust_h2"):
+            p(pg["trust_h2"], pg["trust_lead"] + " Link: " + pg["trust_link"]["label"])
+            p("Security badges", "Reused from the Trust page, including ISO/IEC 27001:2022.")
+        if pg.get("proof_h2"):
+            p(pg["proof_h2"], pg["proof_lead"] + " Reuses the Mega Insurance and Takaful Keluarga with Medilink stories.")
+        if pg.get("how"):
+            p(pg["how_h2"], pg["how_lead"])
+            for item in pg["how"]:
+                p(item["num"] + " " + item["h"], item["p"])
+        if pg.get("plan"):
+            plan = pg["plan"]
+            p(pg["plan_h2"], pg["plan_lead"])
+            p("Plan card", plan["name"] + ". " + plan["price"] + " " + plan["period"] + ". " + plan["term"] + ".")
+            for item in plan["includes"]:
+                lines.append("  - " + item)
+            lines.append("")
+            p("Plan note", plan["note"])
+            lines.append("Plan CTA: " + plan["cta"]["label"])
+            lines.append("")
+        p("Closing headline", pg["close_h2"])
+        p("Closing lead", pg["close_lead"])
 
     plat = PAGES["platform"]
     h("Platform")
@@ -1831,6 +2006,8 @@ def write(path: str, html_text: str) -> None:
 def main() -> None:
     copy_static()
     write("/", build_home())
+    write("/enterprises/", build_enterprises())
+    write("/growing-businesses/", build_growing())
     write("/platform/", build_platform())
     write("/industries/", build_industries())
     write("/industries/health-insurance-claims/", build_health())

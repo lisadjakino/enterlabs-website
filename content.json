@@ -13,6 +13,14 @@
         "href": "/platform/"
       },
       {
+        "label": "For enterprises",
+        "href": "/enterprises/"
+      },
+      {
+        "label": "For growing businesses",
+        "href": "/growing-businesses/"
+      },
+      {
         "label": "Industries",
         "href": "/industries/",
         "children": [
@@ -368,6 +376,14 @@
         "href": "/platform/"
       },
       {
+        "label": "For enterprises",
+        "href": "/enterprises/"
+      },
+      {
+        "label": "For growing businesses",
+        "href": "/growing-businesses/"
+      },
+      {
         "label": "Industries",
         "href": "/industries/"
       },
@@ -564,14 +580,14 @@
     "home": {
       "path": "/",
       "title": "enterlabs",
-      "description": "enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.",
-      "kicker": "Intelligent document processing",
-      "h1": "Less manual work.",
-      "h1_em": "More margin.",
-      "lead": "enterlabs structures your unstructured documents, checks every detail and flags what needs a human. Automation for every document heavy business, with your team in control.",
+      "description": "Applied AI for the work that matters. An AI assistant, document automation and workflow automation on one platform, on your own documents and data.",
+      "kicker": "The platform",
+      "h1": "Applied AI",
+      "h1_em": "for the work that matters.",
+      "lead": "An AI assistant, document automation and workflow automation, together on one platform. We put them to work on your own documents and data, so your team can spend more time on the work that matters.",
       "primary_cta": {
-        "label": "See how it works",
-        "href": "#story"
+        "label": "See the platform",
+        "href": "#products"
       },
       "secondary_cta": {
         "label": "Book a demo",
@@ -795,7 +811,45 @@
             ]
           }
         ]
-      }
+      },
+      "doors_kicker": "Who it is for",
+      "doors_h2": "Two ways to work with enterlabs.",
+      "doors": [
+        {
+          "kicker": "For enterprises",
+          "h": "Intelligent document processing at scale.",
+          "p": "Document automation and workflow automation for complex operations, with the security and proof enterprises need.",
+          "label": "Explore for enterprises",
+          "href": "/enterprises/"
+        },
+        {
+          "kicker": "For growing businesses",
+          "h": "A monthly applied AI service.",
+          "p": "The same platform, set up on your own documents and data and run with you month to month.",
+          "label": "Explore for growing businesses",
+          "href": "/growing-businesses/"
+        }
+      ],
+      "products_kicker": "One platform",
+      "products_h2": "Three products. One platform.",
+      "products_lead": "Everything runs together on enterlabs, on your own documents and data.",
+      "products": [
+        {
+          "num": "01",
+          "h": "AI assistant",
+          "p": "Answers from your own knowledge, so recurring questions no longer pull people away from their work."
+        },
+        {
+          "num": "02",
+          "h": "Document automation",
+          "p": "Reads your documents and forms, structures the detail and flags what needs a person."
+        },
+        {
+          "num": "03",
+          "h": "Workflow automation",
+          "p": "Automates the repetitive steps in your processes, so work moves without being re-entered by hand."
+        }
+      ]
     },
     "platform": {
       "path": "/platform/",
@@ -1702,6 +1756,134 @@
         "checks_h2": "Example checks",
         "how_h2": "How it works"
       }
+    },
+    "enterprises": {
+      "path": "/enterprises/",
+      "title": "For enterprises | enterlabs",
+      "description": "Intelligent document processing and workflow automation at scale, with ISO 27001 certification and results from live programmes.",
+      "kicker": "For enterprises",
+      "h1": "Intelligent document processing and workflow automation, at scale.",
+      "lead": "enterlabs helps enterprise teams take on the document heavy work that slows operations: reading files, checking them against the rules you already trust, and moving work through the process, with people still responsible for the decision.",
+      "primary_cta": {
+        "label": "Book a demo",
+        "href": "/book-a-demo/"
+      },
+      "secondary_cta": {
+        "label": "Trust and security",
+        "href": "/trust/"
+      },
+      "offer_kicker": "The platform",
+      "offer_h2": "Built for operations that run on documents.",
+      "offer_lead": "The same platform brings document automation and workflow automation together, so skilled teams spend less time on routine file work and more on the decisions that need them.",
+      "offer": [
+        {
+          "num": "01",
+          "h": "Intelligent document processing",
+          "p": "Structure unstructured documents, check every detail and flag what needs a human, with a clear record of the review."
+        },
+        {
+          "num": "02",
+          "h": "Workflow automation at scale",
+          "p": "Move work through the process without losing the evidence, the rule, or the person responsible for the decision."
+        },
+        {
+          "num": "03",
+          "h": "People stay in control",
+          "p": "The platform prepares the record and surfaces what needs attention. Qualified reviewers remain responsible for the decision."
+        }
+      ],
+      "trust_kicker": "Trust and security",
+      "trust_h2": "Security that stands up to diligence.",
+      "trust_lead": "ISO/IEC 27001:2022 certified, with the privacy and deployment practices published in our trust center. Review the full picture with your IT and security teams.",
+      "trust_link": {
+        "label": "Explore trust and security",
+        "href": "/trust/"
+      },
+      "proof_kicker": "In production",
+      "proof_h2": "Results from live programmes.",
+      "proof_lead": "Figures from January to September 2026, shared with client approval.",
+      "close_h2": "See the platform at work on your documents.",
+      "close_lead": "Book a walkthrough with the enterlabs team."
+    },
+    "growing": {
+      "path": "/growing-businesses/",
+      "title": "For growing businesses | enterlabs",
+      "description": "A monthly applied AI service on the enterlabs platform. An AI assistant, document automation and workflow automation, set up on your own documents and data. From USD 2,000 / month.",
+      "kicker": "For growing businesses",
+      "h1": "Applied AI, running with you month to month.",
+      "lead": "A monthly service on the enterlabs platform. We bring an AI assistant, document automation and workflow automation together, set them up on your own documents and data, and run them with you month to month.",
+      "primary_cta": {
+        "label": "Talk to us",
+        "href": "mailto:sales@enterlabs.ai"
+      },
+      "secondary_cta": {
+        "label": "Start with a workshop",
+        "href": "mailto:sales@enterlabs.ai?subject=Start%20with%20a%20workshop"
+      },
+      "offer_kicker": "The service",
+      "offer_h2": "The platform, set up for how you work.",
+      "offer_lead": "This is a recurring service, not a software licence you have to stand up alone. We set it up on your own documents and data, without a custom engineering project, and stay with you as the work runs.",
+      "offer": [
+        {
+          "num": "01",
+          "h": "AI assistant",
+          "p": "Set up on your own knowledge, so the team can get answers from the documents and policies you already have."
+        },
+        {
+          "num": "02",
+          "h": "Document automation",
+          "p": "Reads your documents and forms, so routine reading and checking no longer sit entirely with your people."
+        },
+        {
+          "num": "03",
+          "h": "Workflow automation",
+          "p": "Automates repetitive steps in your day to day processes, connected to the way you already work."
+        }
+      ],
+      "how_kicker": "How it works",
+      "how_h2": "A workshop, then setup, then a monthly rhythm.",
+      "how_lead": "We start by finding where AI can make a meaningful difference, then we set the platform up and keep it running with you.",
+      "how": [
+        {
+          "num": "01",
+          "h": "Workshop",
+          "p": "Begin with a workshop to understand your operations and agree where AI fits first."
+        },
+        {
+          "num": "02",
+          "h": "Setup",
+          "p": "We set up the platform on your own documents and data, ready for your team to use."
+        },
+        {
+          "num": "03",
+          "h": "Monthly service",
+          "p": "The assistant, document automation and workflow automation run together, month to month, as we stay with you."
+        }
+      ],
+      "plan_kicker": "The plan",
+      "plan_h2": "A clear monthly engagement.",
+      "plan_lead": "One monthly fee for the service, with a defined starting term. The aim is straightforward: time returned to your team, a faster turnaround, and documents that are processed as part of everyday work.",
+      "plan": {
+        "name": "Premium",
+        "price": "From USD 2,000",
+        "period": "/ month",
+        "term": "6 month minimum",
+        "includes_label": "What is included",
+        "includes": [
+          "A diagnosis of where AI can make a meaningful difference, and a check that your data is ready",
+          "An AI assistant set up on your own knowledge",
+          "Document automation that reads your documents and forms",
+          "Workflow automation for repetitive steps in your processes",
+          "Training for your team, and reporting on results as the service runs"
+        ],
+        "cta": {
+          "label": "Talk to us",
+          "href": "mailto:sales@enterlabs.ai"
+        },
+        "note": "Start with a workshop if you want a first conversation about where AI fits."
+      },
+      "close_h2": "Talk to us about a monthly engagement.",
+      "close_lead": "Write to sales@enterlabs.ai, or start with a workshop."
     }
   },
   "confirmations": [
